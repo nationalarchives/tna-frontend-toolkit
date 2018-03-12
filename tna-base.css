@@ -2355,6 +2355,37 @@ button.close {
 /* TNA fonts */
 /* TNA colours */
 /* TNA Icons/Images */
+.button {
+  background: #008484;
+  color: #fff;
+  padding: 0.5em;
+  display: inline-block;
+  min-width: 24px;
+  text-align: center; }
+
+.button:hover {
+  background: #FCE45C;
+  color: #000;
+  text-decoration: underline;
+  border: none; }
+
+.secondary {
+  background-color: #666; }
+
+.tertiary {
+  background-color: transparent;
+  color: #2A5DB0; }
+
+.ghost {
+  background-color: transparent !important;
+  color: #FFF !important;
+  border: solid 1px #FFFFFF;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
 /* TNA global styles */
 body {
   font-family: "Open Sans", arial, sans-serif;
@@ -2384,7 +2415,7 @@ h4 {
 p {
   margin: 0 0 1.5em; }
 
-a:active, a:link, a:visited {
+a {
   color: #2A5DB0;
   text-decoration: none; }
 
@@ -3519,22 +3550,6 @@ header #mobileGlobalSearch #changeDestination {
   margin: 7% 0 7% 0; }
 
 /* End - Ghost button class can now be applied directly to any html tag */
-/* Buttons */
-a.button {
-  background: #008484;
-  color: #fff;
-  padding: 0.5em;
-  display: inline-block;
-  /* used to contain button text when it drops to a second line */
-  min-width: 24px;
-  text-align: center; }
-
-a.button:hover {
-  background: #FCE45C;
-  color: #000;
-  text-decoration: underline;
-  border: none; }
-
 /* WEB COLOURS */
 .hue-red {
   background-color: #cb0d07;
