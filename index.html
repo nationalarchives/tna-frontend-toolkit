@@ -9,27 +9,96 @@
 	<meta name="description" content="TNA Toolkit">
 	<meta name="author" content="The National Archives">
 
+	<link rel="stylesheet" id="tna-google-fonts"  href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%2C400italic%2C700italic%7CBitter&#038;ver=4.4.14" type="text/css" media="all" />
+	<link rel="stylesheet" href="toolkit.css?v=1.0">
 	<link rel="stylesheet" href="tna-base.css?v=1.0">
 
 </head>
 
 <body>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>TNA Toolkit</h1>
+			</div>
+		</div>
+	</div>
+</header>
+<main>
 <div class="container">
 	<div class="row">
 		<div class="col-md-8">
-			<h2>Containers</h2>
-			<p>Usage: <code>.container</code></p>
-			<figure class="highlight">
-				<pre>
-					<code>
-&lt;div class="container"&gt;
-...
-&lt;/div&gt;
-					</code>
-				</pre>
-			</figure>
+			<section id="typography">
+				<h2>Typography</h2>
+				<hr>
+				<h3>Headings</h3>
+				<h5>Examples</h5>
+				<div class="examples">
+					<h1>h1 TNA heading</h1>
+					<h2>h2 TNA heading</h2>
+					<h3>h3 TNA heading</h3>
+					<h4>h4 TNA heading</h4>
+				</div>
+				<h5>Usage</h5>
+<pre><code>&lt;h1&gt;h1 TNA heading&lt;/h1&gt;
+&lt;h2&gt;h2 TNA heading&lt;/h2&gt;
+&lt;h3&gt;h3 TNA heading&lt;/h3&gt;
+&lt;h4&gt;h1 TNA heading&lt;/h4&gt;</code></pre>
+				<h3>Body copy</h3>
+				<h5>Examples</h5>
+				<div class="examples">
+					<p>Body copy</p>
+					<p><small>Body copy small</small></p>
+					<p>Body copy <strong>bold</strong></p>
+				</div>
+				<h5>Usage</h5>
+<pre><code>&lt;p&gt;Body copy&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Body copy small&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Body copy &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;</code></pre>
+				<h3>Default blockquote</h3>
+				<h5>Examples</h5>
+				<div class="examples">
+					<blockquote>
+						<p>The quote appears indented within an article with a light grey opening quotation mark in the background. The quote should be a single paragraph with the provider of the quote applied using the Attribution function. The quote provider’s will then appear to the bottom right of the quote at a smaller size.</p>
+						<p><cite>Source Title</cite></p>
+					</blockquote>
+				</div>
+				<h5>Usage</h5>
+<pre><code>&lt;blockquote&gt;
+	&lt;p&gt;The quote appears...&lt;/p&gt;
+	&lt;p&gt;&lt;cite&gt;Quote source...&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</code></pre>
+			</section>
+			<section id="buttons">
+			<h2>Buttons</h2>
+			<hr>
+			<h3>Link buttons</h3>
+			<h5>Examples</h5>
+			<div class="examples dark">
+				<a class="button" href="#" role="button">Primary default</a>
+				<a class="button secondary" href="#" role="button">Secondary</a>
+				<a class="button tertiary" href="#" role="button">Tertiary</a>
+				<a class="button ghost" href="#" role="button">Ghost</a>
+			</div>
+			<h5>Usage</h5>
+<pre><code>&lt;a href="#" class="button" role="button"&gt;Primary default&lt;/a&gt;
+&lt;a href="#" class="button secondary" role="button"&gt;Secondary&lt;/a&gt;
+&lt;a href="#" class="button tertiary" role="button"&gt;Tertiary&lt;/a&gt;
+&lt;a href="#" class="button ghost" role="button"&gt;Ghost&lt;/a&gt;</code></pre>
+			</section>
 		</div>
 	</div>
 </div>
+</main>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h4><small>TNA Toolkit</small></h4>
+			</div>
+		</div>
+	</div>
+</footer>
 </body>
 </html>

@@ -104,22 +104,6 @@ footer {
 
 /* End - Ghost button class can now be applied directly to any html tag */
 
-/* Buttons */
-a.button {
-  background: #008484;
-  color: #fff;
-  padding: 0.5em;
-  display: inline-block;
-  /* used to contain button text when it drops to a second line */
-  min-width: 24px;
-  text-align: center; }
-
-a.button:hover {
-  background: #FCE45C;
-  color: #000;
-  text-decoration: underline;
-  border: none; }
-
 /* WEB COLOURS */
 .hue-red {
   background-color: #cb0d07;
