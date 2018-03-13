@@ -24,15 +24,15 @@ blockquote {
     text-align: right;
     font-size: .9em;
   }
-}
-blockquote:before {
-  font-size: 16em;
-  color: rgba(0, 0, 0, 0.1);
-  margin-left: -10px;
-  margin-top: -130px;
-  position: absolute;
-  font-family: "MS Serif", "New York", serif;
-  content: "\201C";
+  &:before {
+    font-size: 16em;
+    color: rgba(0, 0, 0, 0.1);
+    margin-left: -10px;
+    margin-top: -130px;
+    position: absolute;
+    font-family: "MS Serif", "New York", serif;
+    content: "\201C";
+  }
 }
 .emphasis-block {
   margin: 1em 0;

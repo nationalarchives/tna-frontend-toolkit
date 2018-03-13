@@ -2441,11 +2441,10 @@ p {
 /* TNA list styles */
 ul, ol {
   padding-left: 1.5em;
-  margin: 0 0 1.5em 0;
-  /* for consistency with heading and paragraph margins in articles */ }
+  margin: 0 0 1.5em 0; }
 
 ul li {
-  list-style-image: url("../img/list-bullet.png"); }
+  list-style-image: url("img/list-bullet.png"); }
 
 ul li, ol li {
   margin: 0 0 .75em 0;
@@ -2453,10 +2452,6 @@ ul li, ol li {
 
 ul li ul, ol li ol {
   margin: 1em 0 0 0; }
-
-.breather p + ul {
-  /* all ul within or alongside paragraphs should have margins defined by class
-  margin: 1em 0 2em 0; */ }
 
 ul.no-bullet li {
   border-bottom: 1px solid #ddd;
@@ -2468,15 +2463,14 @@ ul.no-bullet li {
 ul.no-bullet li:last-child {
   border-bottom: 0; }
 
-ul.full,
-ul.child, ul.sibling, ul.triplets, ul.quadruplets {
+ul.full, ul.child, ul.sibling, ul.triplets, ul.quadruplets {
   float: left;
   padding-bottom: 10px;
   width: 96%;
   margin: 0; }
 
 ul.child li, ul.sibling li, ul.triplets li, ul.quadruplets li, ul.full li {
-  list-style-image: url("../img/list-link-bullet.png");
+  list-style-image: url("img/list-link-bullet.png");
   width: 96%;
   float: left;
   margin-bottom: 1em; }
@@ -2496,8 +2490,7 @@ ul.sibling li {
 ul.documents li a,
 ul.sibling li a,
 ul.urls li a {
-  display: block;
-  /* increases the selectable area for the benefit of smaller screen users and also forces extraneous information outside the link e.g. file type and size onto a second line for neatness */ }
+  display: block; }
 
 ul.documents li {
   font-size: .9em;
@@ -2798,15 +2791,14 @@ blockquote {
     /* to display source of quote - quotes MUST have a source provided in a final paragraph! */
     text-align: right;
     font-size: .9em; }
-
-blockquote:before {
-  font-size: 16em;
-  color: rgba(0, 0, 0, 0.1);
-  margin-left: -10px;
-  margin-top: -130px;
-  position: absolute;
-  font-family: "MS Serif", "New York", serif;
-  content: "\201C"; }
+  blockquote:before {
+    font-size: 16em;
+    color: rgba(0, 0, 0, 0.1);
+    margin-left: -10px;
+    margin-top: -130px;
+    position: absolute;
+    font-family: "MS Serif", "New York", serif;
+    content: "\201C"; }
 
 .emphasis-block {
   margin: 1em 0;
@@ -3429,23 +3421,6 @@ aside {
 /* -------------------------- */
 /* Old TNA styling ---------- */
 /* -------------------------- */
-/* Navigation --------------- */
-nav#nav {
-  padding: .5em 1em 1.5em; }
-  @media (width: 768px) {
-    nav#nav .col-sm-6 {
-      width: 33%; } }
-
-/* Header --------------------*/
-header #mobileGlobalSearch .input-group {
-  padding: 10px 0; }
-header #mobileGlobalSearch label {
-  font-weight: normal; }
-  header #mobileGlobalSearch label input[type="radio"] {
-    margin: 0 5px 0 5px; }
-header #mobileGlobalSearch #changeDestination {
-  padding-top: .5em; }
-
 /* Container ----------------  */
 .container {
   max-width: 1240px !important;
@@ -3461,38 +3436,6 @@ header #mobileGlobalSearch #changeDestination {
     .container aside#sidebar.col-md-4 {
       width: 34.9%; } }
 
-@media (width: 768px) {
-  footer#footer .col-sm-6 {
-    width: 50%; } }
-
-@media (max-width: 768px) {
-  .footer-col {
-    margin: 0 0 40px 0 !important; } }
-
-/* Ghost button class can now be applied directly to any html tag */
-.ghost-button {
-  line-height: 1em;
-  display: inline-block;
-  color: #FFF !important;
-  border: solid 1px #FFFFFF;
-  padding: 15px;
-  margin: 2% 0 2% 0;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  transition: .5s;
-  width: auto;
-  text-align: center; }
-
-.ghost-button:hover {
-  text-decoration: none;
-  background-color: #009999; }
-
-.ghost-button h3 {
-  margin: 7% 0 7% 0; }
-
-/* End - Ghost button class can now be applied directly to any html tag */
 /* WEB COLOURS */
 .hue-red {
   background-color: #cb0d07;
