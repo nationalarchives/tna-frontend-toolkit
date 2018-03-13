@@ -52,14 +52,12 @@ textarea:focus,
 select:focus {
   outline: 3px solid #ebab00;
 }
-input[type="submit"]:focus,
-a.button:focus {
+input[type="submit"]:focus {
   color: #fff;
   background-color: #111;
   background-color: rgba(0,0,0, 0.75);
 }
-input[type="submit"]:hover,
-a.button:hover {
+input[type="submit"]:hover {
   color: #222;
   background-color: $tna_yellow;
 }

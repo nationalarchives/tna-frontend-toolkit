@@ -2356,7 +2356,7 @@ button.close {
 /* TNA colours */
 /* TNA Icons/Images */
 .button {
-  background: #008484;
+  background-color: #008484;
   color: #fff;
   padding: 0.5em;
   display: inline-block;
@@ -2364,10 +2364,9 @@ button.close {
   text-align: center; }
 
 .button:hover {
-  background: #FCE45C;
+  background-color: #fce45c;
   color: #000;
-  text-decoration: underline;
-  border: none; }
+  text-decoration: underline; }
 
 .secondary {
   background-color: #666; }
@@ -2377,14 +2376,18 @@ button.close {
   color: #2A5DB0; }
 
 .ghost {
-  background-color: transparent !important;
-  color: #FFF !important;
-  border: solid 1px #FFFFFF;
+  background-color: transparent;
+  color: #fff;
+  border: solid 1px #fff;
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
   -webkit-transition: .5s;
   transition: .5s; }
+
+.ghost:hover {
+  background-color: #008484;
+  color: #fff; }
 
 /* TNA global styles */
 body {
@@ -2392,28 +2395,6 @@ body {
   font-size: 16px;
   background-color: #eee;
   line-height: 1.6; }
-
-h1, h2, h3, h4 {
-  font-family: "Bitter", "Open Sans", arial, serif;
-  font-weight: 400;
-  z-index: 2;
-  line-height: 1.6;
-  letter-spacing: -.025em; }
-
-h1 {
-  font-size: 2em; }
-
-h2 {
-  font-size: 1.6em; }
-
-h3 {
-  font-size: 1.3em; }
-
-h4 {
-  font-size: 1.16em; }
-
-p {
-  margin: 0 0 1.5em; }
 
 a {
   color: #2A5DB0;
@@ -2509,6 +2490,28 @@ a#cookieCutter {
 .list_right_thumbnail li img {
   float: right;
   padding: 0 0 10px 10px; }
+
+h1, h2, h3, h4 {
+  font-family: "Bitter", "Open Sans", arial, serif;
+  font-weight: 400;
+  z-index: 2;
+  line-height: 1.6;
+  letter-spacing: -.025em; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.6em; }
+
+h3 {
+  font-size: 1.3em; }
+
+h4 {
+  font-size: 1.16em; }
+
+p {
+  margin: 0 0 1.5em; }
 
 /* TNA list styles */
 ul, ol {
@@ -2742,14 +2745,12 @@ textarea:focus,
 select:focus {
   outline: 3px solid #ebab00; }
 
-input[type="submit"]:focus,
-a.button:focus {
+input[type="submit"]:focus {
   color: #fff;
   background-color: #111;
   background-color: rgba(0, 0, 0, 0.75); }
 
-input[type="submit"]:hover,
-a.button:hover {
+input[type="submit"]:hover {
   color: #222;
   background-color: #fce45c; }
 

@@ -1,6 +1,6 @@
 
 .button {
-  background: #008484;
+  background-color: $tna_teal;
   color: #fff;
   padding: 0.5em;
   display: inline-block;
@@ -9,14 +9,13 @@
 }
 
 .button:hover {
-  background: #FCE45C;
+  background-color: $tna_yellow;
   color: #000;
   text-decoration: underline;
-  border: none;
 }
 
 .secondary {
-  background-color: #666;
+  background-color: $tna_mid;
 }
 
 .tertiary {
@@ -25,12 +24,17 @@
 }
 
 .ghost {
-  background-color: transparent !important;
-  color: #FFF !important;
-  border: solid 1px #FFFFFF;
+  background-color: transparent;
+  color: #fff;
+  border: solid 1px #fff;
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
   -webkit-transition: .5s;
   transition: .5s;
+}
+
+.ghost:hover {
+  background-color: $tna_teal;
+  color: #fff;
 }
