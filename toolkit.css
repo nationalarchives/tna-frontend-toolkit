@@ -15,5 +15,13 @@ main {
     box-shadow: none;
 }
 .dark {
-    background-color: #ccc;
+    background-color: #666;
+}
+.sidebar-nav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
