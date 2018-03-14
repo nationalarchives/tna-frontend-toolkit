@@ -17,8 +17,6 @@ label {
   font-weight: 400;
 }
 input[type="submit"] {
-  background-color: #008484;
-  color: #fff;
   padding: 0.3em .5em;
   border: 0;
   height: 40px; /*this height must match the standalone button class for single field forms */
@@ -118,14 +116,11 @@ input[type="submit"]:hover {
   textarea {
     height: 120px;
   }
-  input[type="submit"] {
+  .button-right {
     float: right;
   }
   p {
     margin-bottom: 5px;
-  }
-  .button {
-    float: right;
   }
   .form-hint {
     color: #6f777b;

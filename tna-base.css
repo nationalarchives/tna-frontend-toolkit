@@ -2628,8 +2628,6 @@ label {
   font-weight: 400; }
 
 input[type="submit"] {
-  background-color: #008484;
-  color: #fff;
   padding: 0.3em .5em;
   border: 0;
   height: 40px;
@@ -2735,12 +2733,10 @@ input[type="submit"]:hover {
       background: #eee; }
   .form-row textarea {
     height: 120px; }
-  .form-row input[type="submit"] {
+  .form-row .button-right {
     float: right; }
   .form-row p {
     margin-bottom: 5px; }
-  .form-row .button {
-    float: right; }
   .form-row .form-hint {
     color: #6f777b; }
   .form-row .optional {
