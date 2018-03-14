@@ -488,7 +488,7 @@
 				<div class="examples">
 					<form>
 						<fieldset>
-							<legend>Your details</legend>
+							<legend>Your enquiry</legend>
 							<div class="form-row">
 								<label for="full_name">Full name <span class="optional">(optional)</span></label>
 								<input type="text" id="full_name" name="full_name">
@@ -496,6 +496,43 @@
 							<div class="form-row">
 								<label for="email">Email address</label>
 								<input type="email" id="email" name="email" aria-required="true" required>
+							</div>
+							<div class="form-row">
+								<label for="type">Type of enquiry</label>
+								<select id="type" name="type">
+									<option value="">Please select</option>
+									<option value="Compliment">Compliment</option>
+									<option value="Comment">Comment</option>
+									<option value="Concern">Concern</option>
+								</select>
+							</div>
+							<div class="form-row">
+								<label for="form_enquiry">Your enquiry</label>
+								<textarea id="form_enquiry" name="enquiry" aria-required="true" required></textarea>
+							</div>
+							<div class="form-row checkbox">
+								<input type="checkbox" id="news_yes" name="newsletter" value="yes">
+								<label for="news_yes">Tick here to receive our free monthly newsletter</label>
+							</div>
+							<div class="form-row">
+								<input type="submit" name="submit" id="form_submit" value="Submit" class="button">
+							</div>
+						</fieldset>
+					</form>
+				</div>
+				<h3>Text input</h3>
+				<h5>Examples</h5>
+				<div class="examples">
+					<form>
+						<fieldset>
+							<legend>Your details</legend>
+							<div class="form-row">
+								<label for="form_full_name">Full name <span class="optional">(optional)</span></label>
+								<input type="text" id="form_full_name" name="full_name">
+							</div>
+							<div class="form-row">
+								<label for="form_email">Email address</label>
+								<input type="email" id="form_email" name="email" aria-required="true" required>
 							</div>
 						</fieldset>
 					</form>
