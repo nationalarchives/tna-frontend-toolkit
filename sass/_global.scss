@@ -12,6 +12,7 @@ a {
   text-decoration: none;
 }
 a:hover {
+  color: $tna_link_col;
   text-decoration: underline;
 }
 a:focus {
