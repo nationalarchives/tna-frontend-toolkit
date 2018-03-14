@@ -70,19 +70,19 @@ input[type="submit"]:hover {
 }
 .checkbox label,
 .radio label {
-  padding-left: 38px !important;
+  padding-left: 38px;
 }
 .checkbox,
 .radio {
   .form-error {
-    margin-left: 38px !important;
+    margin-left: 38px;
     padding-left: 0.5em;
   }
 }
 .form-row {
   max-width: 92%;
   margin: 0 auto;
-  margin-bottom: 1.5em !important;
+  margin-bottom: 1.5em;
   &:before, &:after {
     display: table;
     content: " ";
@@ -106,7 +106,7 @@ input[type="submit"]:hover {
   input[type=url],
   select,
   textarea {
-    width: 100% !important;
+    width: 100%;
     max-width: 420px;
     &:disabled {
       background: #eee;
@@ -145,7 +145,7 @@ input[type="submit"]:hover {
     }
   }
   .form-warning {
-    border: 2px solid #EBAB2C !important;
+    border: 2px solid #EBAB2C;
   }
 }
 @media (max-width: 768px) {
