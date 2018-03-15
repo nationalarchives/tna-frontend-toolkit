@@ -1,24 +1,23 @@
 /* TNA form styles */
 
 fieldset {
-  border: 1px solid #ccc !important;
-  padding: 1em !important;
-  margin-bottom: 2em !important;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 2em;
 }
 legend {
   font-family: "Bitter", "Open Sans", arial, serif;
-  font-size: 1.6em !important;
-  margin-bottom: 10px !important;
-  width: auto !important;
-  padding: 0 0.5em !important;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  width: auto;
+  padding: 0 0.5em;
+  border-bottom: none;
 }
 label {
   font-weight: 400;
 }
 input[type="submit"] {
-  background-color: #008484;
-  color: #fff;
-  padding: 0.3em .5em;
+  padding: 0.3em .9em;
   border: 0;
   height: 40px; /*this height must match the standalone button class for single field forms */
   margin: 0;
@@ -29,8 +28,7 @@ input[type=tel],
 input[type=number],
 input[type=color],
 input[type=email],
-input.width-half,
-#Email /* the Email ID has been applied to single-field email sign-up forms */ {
+input.width-half {
   border: 1px solid #ccc;
   padding: 2px;
   height: 34px;
@@ -69,27 +67,32 @@ input[type="submit"]:hover {
 }
 .checkbox label,
 .radio label {
-  padding-left: 38px !important;
+  padding-left: 38px;
 }
 .checkbox,
 .radio {
   .form-error {
-    margin-left: 38px !important;
+    margin-left: 38px;
     padding-left: 0.5em;
   }
 }
 .form-row {
   max-width: 92%;
   margin: 0 auto;
-  margin-bottom: 1.5em !important;
+  margin-bottom: 1.5em;
   &:before, &:after {
     display: table;
     content: " ";
     clear: both;
   }
   label {
-    width: 100% !important;
-    margin-right: 0 !important;
+    width: 100%;
+    margin-right: 0;
+  }
+  &.checkbox {
+    label {
+      width: auto;
+    }
   }
   input[type=color],
   input[type=email],
@@ -100,7 +103,7 @@ input[type="submit"]:hover {
   input[type=url],
   select,
   textarea {
-    width: 100% !important;
+    width: 100%;
     max-width: 420px;
     &:disabled {
       background: #eee;
@@ -112,14 +115,11 @@ input[type="submit"]:hover {
   textarea {
     height: 120px;
   }
-  input[type="submit"] {
+  .button-right {
     float: right;
   }
   p {
     margin-bottom: 5px;
-  }
-  .button {
-    float: right;
   }
   .form-hint {
     color: #6f777b;
@@ -139,7 +139,7 @@ input[type="submit"]:hover {
     }
   }
   .form-warning {
-    border: 2px solid #EBAB2C !important;
+    border: 2px solid #EBAB2C;
   }
 }
 @media (max-width: 768px) {

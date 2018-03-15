@@ -4,6 +4,9 @@ body {
 main {
     margin-bottom: 1.5em;
 }
+section {
+    padding-top: 1px;
+}
 .examples {
     position: relative;
     padding: 1.6em 1em;
@@ -15,5 +18,37 @@ main {
     box-shadow: none;
 }
 .dark {
-    background-color: #ccc;
+    background-color: #666;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.sidebar {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 1.5em;
+    margin: 1.5em 0;
+}
+.sidebar ul.no-bullet {
+    padding-left: 0;
+}
+.sidebar ul.no-bullet li {
+    padding: 0 !important;
+}
+.sidebar ul.no-bullet a {
+    background-color: #f3f3f3;
+    padding: 10px;
+    display: block;
+}
+ul.colours li {
+    padding-left: 1em !important;
+}
+ul.colours  {
+    padding-left: 0 !important;
+    margin: 0 !important;
 }
