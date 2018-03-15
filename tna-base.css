@@ -2369,6 +2369,47 @@ button.close {
     .container aside#sidebar.col-md-4 {
       width: 34.9%; } }
 
+/* Default page layout */
+article {
+  background-color: #fff;
+  margin-bottom: 1.5em; }
+  article .entry-header {
+    padding: 10px 10px 0 0;
+    background: url("../img/dot-grey.png"); }
+    article .entry-header h1 {
+      font-size: 2em;
+      padding: 4px 10px;
+      background-color: #405480;
+      color: #fff;
+      line-height: 1.25;
+      margin: 0 10px 0 -10px;
+      display: inline-block; }
+    article .entry-header h2 {
+      padding: 4px 32px 4px 10px;
+      background-color: #405480;
+      color: #fff;
+      line-height: 1.5;
+      margin: 0 10px 0 -10px;
+      display: inline-block; }
+      article .entry-header h2 a {
+        color: #fff;
+        background-image: url("../img/icon-24-heading-link.png");
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        padding-right: 32px; }
+  article .entry-header:after {
+    content: ' ';
+    display: block;
+    height: 10px;
+    margin: 0 0 0 -10px;
+    background: url("../img/heading-flourish.png") no-repeat bottom left; }
+  article .entry-content {
+    padding: 20px; }
+    article .entry-content .thumbnail {
+      margin-bottom: 10px;
+      border: none;
+      padding: 0; }
+
 body {
   font-family: "Open Sans", arial, sans-serif;
   font-size: 16px;
@@ -2992,107 +3033,6 @@ footer {
     float: none !important;
     max-width: 320px;
     margin-bottom: 10px; } }
-/* TNA template styles */
-/* Default template */
-article {
-  background-color: #fff;
-  margin-bottom: 1.5em; }
-  article .entry-header {
-    padding: 10px 10px 0 0;
-    background: url("../img/dot-grey.png"); }
-    article .entry-header h1 {
-      font-size: 2em;
-      padding: 4px 10px;
-      background-color: #405480;
-      color: #fff;
-      line-height: 1.25;
-      margin: 0 10px 0 -10px;
-      display: inline-block; }
-    article .entry-header h2 {
-      padding: 4px 32px 4px 10px;
-      background-color: #405480;
-      color: #fff;
-      line-height: 1.5;
-      margin: 0 10px 0 -10px;
-      display: inline-block; }
-      article .entry-header h2 a {
-        color: #fff;
-        background-image: url("../img/icon-24-heading-link.png");
-        background-repeat: no-repeat;
-        background-position: 100% 50%;
-        padding-right: 32px; }
-  article .entry-header:after {
-    content: ' ';
-    display: block;
-    height: 10px;
-    margin: 0 0 0 -10px;
-    background: url("../img/heading-flourish.png") no-repeat bottom left; }
-  article .entry-content {
-    padding: 20px; }
-    article .entry-content .thumbnail {
-      margin-bottom: 10px;
-      border: none;
-      padding: 0; }
-
-.equal-heights > div {
-  background: white;
-  background-clip: content-box;
-  margin-bottom: 1.5em; }
-.equal-heights article {
-  margin-bottom: 0; }
-.equal-heights p {
-  margin-bottom: 0.5em; }
-
-/* Level 1 landing template */
-.level-one .banner {
-  height: 288px;
-  position: relative; }
-  .level-one .banner .entry-header {
-    background: none; }
-  .level-one .banner .entry-content {
-    overflow: hidden;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: #000;
-    background: rgba(0, 0, 0, 0.66);
-    color: #ddd;
-    width: 100%;
-    padding: 1em 0.2em; }
-    .level-one .banner .entry-content h2, .level-one .banner .entry-content h3, .level-one .banner .entry-content h4, .level-one .banner .entry-content p {
-      margin: 0; }
-    .level-one .banner .entry-content .call-to-action-button {
-      text-align: right; }
-.level-one .feature-img-bg {
-  background-position: center center;
-  background-size: cover; }
-.level-one .box-third ul, .level-one .box-half ul, .level-one .box-full ul {
-  margin-top: 1em; }
-.level-one .box-third ul li, .level-one .box-half ul li, .level-one .box-full ul li {
-  float: left;
-  list-style-image: url(../img/list-link-bullet.png);
-  margin-bottom: 1em; }
-.level-one .box-third .feature-img-bg, .level-one .box-half .feature-img-bg, .level-one .box-full .feature-img-bg {
-  height: 180px; }
-.level-one .box-third ul li, .level-one .box-half ul li {
-  width: 40%;
-  margin-right: 10%; }
-.level-one .box-full ul li {
-  width: 26%;
-  margin-right: 7%; }
-@media only screen and (max-width: 567px) {
-  .level-one .box-third ul li, .level-one .box-half ul li, .level-one .box-full ul li {
-    width: 96%;
-    margin-right: 0; } }
-@media only screen and (max-width: 480px) {
-  .level-one .banner .entry-content {
-    padding: 0; }
-    .level-one .banner .entry-content .page-content {
-      display: none; }
-  .level-one .banner .entry-content .call-to-action-button {
-    width: 100%;
-    text-align: center; } }
-
 /* TNA sidebar styles */
 aside {
   margin-bottom: 1.5em; }
