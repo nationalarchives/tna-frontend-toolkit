@@ -17,7 +17,18 @@ main {
 .dark {
     background-color: #666;
 }
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
 .sidebar {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 1.5em;
     margin: 1.5em 0;
 }
 ul.colours li {
@@ -26,4 +37,18 @@ ul.colours li {
 ul.colours  {
     padding-left: 0 !important;
     margin: 0 !important;
+}
+ul.no-bullet {
+    padding-left: 0;
+}
+ul.no-bullet li {
+    padding: 0 !important;
+}
+ul.no-bullet a {
+    background-color: #f3f3f3;
+    padding: 10px;
+    display: block;
+}
+section {
+    padding-top: 1px;
 }
