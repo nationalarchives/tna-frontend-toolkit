@@ -2355,41 +2355,20 @@ button.close {
 /* TNA fonts */
 /* TNA colours */
 /* TNA Icons/Images */
-.button {
-  background-color: #008484;
-  color: #fff;
-  padding: 0.5em;
-  display: inline-block;
-  min-width: 24px;
-  text-align: center; }
+.container {
+  max-width: 1240px !important;
+  width: 100% !important;
+  padding: 0 !important; }
+  @media (max-width: 1280px) {
+    .container {
+      width: 94% !important; } }
+  @media (width: 768px) {
+    .container main#main.col-md-8 {
+      width: 65%; } }
+  @media (width: 768px) {
+    .container aside#sidebar.col-md-4 {
+      width: 34.9%; } }
 
-.button:hover {
-  background-color: #fce45c;
-  color: #000;
-  text-decoration: underline; }
-
-.secondary {
-  background-color: #666; }
-
-.tertiary {
-  background-color: transparent;
-  color: #2A5DB0; }
-
-.ghost {
-  background-color: transparent;
-  color: #fff;
-  border: solid 1px #fff;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  transition: .5s; }
-
-.ghost:hover {
-  background-color: #008484;
-  color: #fff; }
-
-/* TNA global styles */
 body {
   font-family: "Open Sans", arial, sans-serif;
   font-size: 16px;
@@ -2438,6 +2417,40 @@ h4 {
 
 p {
   margin: 0 0 1.5em; }
+
+.button {
+  background-color: #008484;
+  color: #fff;
+  padding: 0.5em;
+  display: inline-block;
+  min-width: 24px;
+  text-align: center; }
+
+.button:hover {
+  background-color: #fce45c;
+  color: #000;
+  text-decoration: underline; }
+
+.secondary {
+  background-color: #666; }
+
+.tertiary {
+  background-color: transparent;
+  color: #2A5DB0; }
+
+.ghost {
+  background-color: transparent;
+  color: #fff;
+  border: solid 1px #fff;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.ghost:hover {
+  background-color: #008484;
+  color: #fff; }
 
 /* TNA list styles */
 ul, ol {
@@ -2833,91 +2846,6 @@ blockquote {
     margin: 1em 0;
     font-size: .9em; }
 
-/* TNA mega-menu styles (Mega-menu feed processor) */
-.mega-menu {
-  margin-left: -15px;
-  margin-right: -15px; }
-  .mega-menu > ul > li > a, .mega-menu > ul > li > div {
-    font-family: "Bitter", "Open Sans", arial, serif;
-    font-size: 1.3em;
-    font-weight: 400;
-    z-index: 2;
-    letter-spacing: -0.025em;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    line-height: 1.6;
-    padding: 0;
-    color: #fff;
-    display: block; }
-  .mega-menu > ul > li {
-    width: 16.66667%;
-    float: left;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-top: none !important;
-    list-style-image: none; }
-  .mega-menu .mobile-home-link {
-    display: none; }
-  .mega-menu > ul > li:last-of-type {
-    margin: 0; }
-  @media (max-width: 992px) {
-    .mega-menu > ul > li {
-      width: 50%; } }
-  @media (max-width: 580px) {
-    .mega-menu > ul > li {
-      width: 100%; } }
-  @media only screen and (max-width: 480px) {
-    .mega-menu > ul > li > ul.sub-menu {
-      display: none; }
-    .mega-menu .toggle-sub-menu:hover {
-      text-decoration: underline; }
-    .mega-menu > ul > li > a, .mega-menu > ul > li > div {
-      background: url(../img/plus.png) 0 14px no-repeat;
-      padding: 5px 5px 5px 22px;
-      cursor: pointer;
-      text-shadow: none; }
-    .mega-menu > ul > li > a.expanded, .mega-menu > ul > li > div.expanded {
-      background: url(../img/minus.png) 0 14px no-repeat; }
-    .mega-menu > ul > li > a:focus {
-      background: #FCE45C !important; }
-    .mega-menu .mobile-home-link {
-      display: block; } }
-
-#nav {
-  background-color: #405480;
-  color: #fff; }
-  #nav h3 a {
-    color: #fff; }
-  #nav h3 a:focus {
-    color: #222; }
-  #nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none; }
-    #nav ul li ul li {
-      font-size: .9em;
-      list-style-image: none;
-      border-top: 1px dotted #192132;
-      margin: 0; }
-      #nav ul li ul li a {
-        color: #fff;
-        padding: 4px;
-        display: block;
-        width: 100%; }
-        #nav ul li ul li a:hover {
-          text-decoration: underline;
-          cursor: pointer; }
-        #nav ul li ul li a:active, #nav ul li ul li a:hover {
-          outline: 0; }
-
-.no-js #nav {
-  display: block; }
-
-.js #nav {
-  display: none; }
-
 /* TNA header styles */
 header {
   background-color: #222;
@@ -2931,12 +2859,21 @@ header {
     padding: 0;
     margin: 0; }
   .notification-banner .notice {
-    margin: 0.3em 0; }
+    margin: 0.3em; }
     .notification-banner .notice strong.title {
       background-color: #fff;
       text-transform: uppercase;
       padding: 0 0.4em;
       margin-right: 1em; }
+
+.notification-alert {
+  background-color: #fff2ae;
+  border-left: #fce45c 4px solid;
+  padding: 7px 32px;
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 5px #ddd; }
+  .notification-alert .notice {
+    padding-right: 30px; }
 
 /* TNA footer styles */
 footer {
@@ -3213,24 +3150,6 @@ aside {
     content: " ";
     display: table;
     clear: both; } }
-/* -------------------------- */
-/* Old TNA styling ---------- */
-/* -------------------------- */
-/* Container ----------------  */
-.container {
-  max-width: 1240px !important;
-  width: 100% !important;
-  padding: 0 !important; }
-  @media (max-width: 1280px) {
-    .container {
-      width: 94% !important; } }
-  @media (width: 768px) {
-    .container main#main.col-md-8 {
-      width: 65%; } }
-  @media (width: 768px) {
-    .container aside#sidebar.col-md-4 {
-      width: 34.9%; } }
-
 /* WEB COLOURS */
 .hue-red {
   background-color: #cb0d07;
@@ -3339,146 +3258,6 @@ a.hue-grey-darkest, a.hue-grey-darker, a.hue-grey-dark, a.hue-grey-mid-dark {
 a.hue-teal, a.hue-red {
   color: #fce45c;
   background-color: transparent; }
-
-/* TNA image styles */
-.feature-img {
-  position: relative; }
-  .feature-img .feature-img-caption {
-    z-index: 1000;
-    width: 38px;
-    height: 38px; }
-  .feature-img .img-caption-bottom {
-    position: absolute;
-    margin-bottom: 1em;
-    margin-right: 1em;
-    bottom: 0;
-    right: 0; }
-  .feature-img .img-caption-top {
-    position: absolute;
-    margin-top: 1em;
-    margin-right: 1em;
-    top: 0;
-    right: 0; }
-  .feature-img .eye_caption {
-    width: 38px;
-    height: 38px;
-    background: url("../img/eye-caption.png");
-    color: #fff; }
-    .feature-img .eye_caption:hover {
-      background: url("../img/eye-caption-hover.png"); }
-    .feature-img .eye_caption:focus {
-      background-color: #fce45c;
-      outline: 3px solid #ebab00;
-      color: #222; }
-  .feature-img .image_caption_back {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: #111;
-    opacity: .85;
-    padding: 5px 10px;
-    z-index: 5000;
-    font-size: .9em;
-    color: #eee;
-    text-align: right;
-    min-width: 300px;
-    max-width: 100%; }
-    .feature-img .image_caption_back a:link,
-    .feature-img .image_caption_back a:visited,
-    .feature-img .image_caption_back a {
-      color: #fce45c; }
-      .feature-img .image_caption_back a:link:hover,
-      .feature-img .image_caption_back a:visited:hover,
-      .feature-img .image_caption_back a:hover {
-        text-decoration: underline; }
-
-.entry-content img.alignright {
-  float: right;
-  margin: 0 0 1em 1em; }
-.entry-content img.alignleft {
-  float: left;
-  margin: 0 1em 1em 0; }
-.entry-content img.aligncenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em; }
-.entry-content .alignright {
-  float: right;
-  margin: 0 0 1em 1em; }
-.entry-content .alignleft {
-  float: left;
-  margin: 0 1em 1em 0; }
-.entry-content .aligncenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em; }
-.entry-content .alignnone {
-  margin-bottom: 1em; }
-.entry-content .wp-caption-text {
-  position: relative;
-  font-size: .9em;
-  color: #666;
-  clear: both;
-  margin: .5em;
-  text-align: center; }
-
-/* TNA icon styles */
-.sprite {
-  background-image: url("../img/icons-compressed.png");
-  width: 40px;
-  height: 40px;
-  margin: 5px 5px 5px 0;
-  cursor: pointer; }
-
-.icon-img-desc {
-  background-position: 0 0; }
-
-.icon-img-desc:hover, .expanded {
-  background-position: 0 40px; }
-
-.icon-new-window {
-  background-position: -40px 0; }
-
-.icon-new-window:hover {
-  background-position: -40px 40px; }
-
-.icon-play {
-  background-position: -80px 0; }
-
-.icon-play:hover {
-  background-position: -80px 40px; }
-
-.icon-rss {
-  background-position: -120px 0; }
-
-.icon-rss:hover {
-  background-position: -120px 40px; }
-
-.icon-facebook {
-  background-position: -160px 0; }
-
-.icon-facebook:hover {
-  background-position: -160px 40px; }
-
-.icon-twitter {
-  background-position: -200px 0; }
-
-.icon-twitter:hover {
-  background-position: -200px 40px; }
-
-.icon-pinterest {
-  background-position: -280px 0; }
-
-.icon-pinterest:hover {
-  background-position: -280px 40px; }
-
-.icon-flickr {
-  background-position: -320px 0; }
-
-.icon-flickr:hover {
-  background-position: -320px 40px; }
 
 /* TNA table styles (extends bootstrap table styles) */
 .table thead {
@@ -3673,45 +3452,3 @@ a.hue-teal, a.hue-red {
     @media (min-width: 1240px) {
       .flex-row .intro-card .intro-content .intro-entry {
         width: 68%; } }
-
-.portal-landing .banner {
-  margin-bottom: 1.6em;
-  background: #ddd center center;
-  background-size: cover; }
-  .portal-landing .banner h1 {
-    font-size: 3em;
-    color: #fff;
-    text-shadow: 3px 3px 8px #000;
-    line-height: 1.23;
-    display: inline-block;
-    padding: 3px 7px;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, 0.5); }
-  .portal-landing .banner .portal-title h1 {
-    margin: 2em auto; }
-  .portal-landing .banner .portal-branding h1 {
-    margin: 0.3em auto; }
-  .portal-landing .banner .portal-logo img {
-    margin: 0 auto; }
-.portal-landing .tna-breadcrumb {
-  margin: 0; }
-.portal-landing .breadcrumbs {
-  display: inline-block;
-  color: #fff;
-  padding: 3px 7px;
-  background-color: #000;
-  background-color: rgba(0, 0, 0, 0.5); }
-  .portal-landing .breadcrumbs a {
-    color: #fce45c; }
-.portal-landing .stay-up-to-date-bar {
-  padding: 0.4em 0;
-  background: #2d3b59;
-  color: #fff; }
-  .portal-landing .stay-up-to-date-bar img.social-icon {
-    background-color: #008484;
-    border-radius: 50%;
-    padding: 3px;
-    margin: 0 .2em;
-    width: 26px; }
-  .portal-landing .stay-up-to-date-bar a {
-    display: inline-block; }
