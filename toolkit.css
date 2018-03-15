@@ -29,10 +29,14 @@ section {
     clear: both;
 }
 .sidebar {
-    position: -webkit-sticky !important;
-    position: sticky !important;
     top: 1.5em;
     margin: 1.5em 0;
+}
+@media (min-width: 992px) {
+    .sidebar {
+        position: -webkit-sticky !important;
+        position: sticky !important;
+    }
 }
 .sidebar ul.no-bullet {
     padding-left: 0;

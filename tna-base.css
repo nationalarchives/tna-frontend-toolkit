@@ -2459,6 +2459,17 @@ h4 {
 p {
   margin: 0 0 1.5em; }
 
+.banner h1 {
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 3px 3px 8px #000;
+  line-height: 1.23;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 3px 7px;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.5); }
+
 .button {
   background-color: #008484;
   color: #fff;
@@ -2886,6 +2897,14 @@ blockquote {
   .tna-breadcrumb .breadcrumbs {
     margin: 1em 0;
     font-size: .9em; }
+  .tna-breadcrumb .breadcrumbs-overlay {
+    display: inline-block;
+    color: #fff;
+    padding: 3px 7px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .tna-breadcrumb .breadcrumbs-overlay a {
+    color: #fce45c; }
 
 /* TNA header styles */
 header {
@@ -3060,7 +3079,7 @@ aside {
     background: url(img/heading-flourish.png) no-repeat bottom left; }
   aside .sidebar-nav {
     background-color: #fff;
-    padding: 20px 0 0 20px; }
+    padding: 20px 0 1em 20px; }
   aside .sidebar-contact {
     background-color: #fff;
     padding: 20px 0 20px 20px; }
