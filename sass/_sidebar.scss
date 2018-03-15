@@ -4,7 +4,7 @@ aside {
   margin-bottom: 1.5em;
   .sidebar-header {
     padding: 10px 10px 0 0;
-    background: url(../img/dot-grey.png) #fff;
+    background: url(img/dot-grey.png) #fff;
     h2 {
       padding: 4px 32px 4px 10px;
       background-color: $tna_blue;
@@ -14,7 +14,7 @@ aside {
       display: inline-block;
       a {
         color: #fff;
-        background-image: url(../img/icon-24-heading-link.png);
+        background-image: url(img/icon-24-heading-link.png);
         background-repeat: no-repeat;
         background-position: 100% 50%;
         padding-right: 32px;
@@ -26,7 +26,7 @@ aside {
     display: block;
     height: 10px;
     margin: 0 0 0 -10px;
-    background: url(../img/heading-flourish.png) no-repeat bottom left;
+    background: url(img/heading-flourish.png) no-repeat bottom left;
   }
   .sidebar-nav {
     background-color: #fff;

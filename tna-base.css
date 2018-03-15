@@ -2375,7 +2375,7 @@ article {
   margin-bottom: 1.5em; }
   article .entry-header {
     padding: 10px 10px 0 0;
-    background: url("../img/dot-grey.png"); }
+    background: url("img/dot-grey.png"); }
     article .entry-header h1 {
       font-size: 2em;
       padding: 4px 10px;
@@ -2393,7 +2393,7 @@ article {
       display: inline-block; }
       article .entry-header h2 a {
         color: #fff;
-        background-image: url("../img/icon-24-heading-link.png");
+        background-image: url("img/icon-24-heading-link.png");
         background-repeat: no-repeat;
         background-position: 100% 50%;
         padding-right: 32px; }
@@ -2402,7 +2402,7 @@ article {
     display: block;
     height: 10px;
     margin: 0 0 0 -10px;
-    background: url("../img/heading-flourish.png") no-repeat bottom left; }
+    background: url("img/heading-flourish.png") no-repeat bottom left; }
   article .entry-content {
     padding: 20px; }
     article .entry-content .thumbnail {
@@ -3038,7 +3038,7 @@ aside {
   margin-bottom: 1.5em; }
   aside .sidebar-header {
     padding: 10px 10px 0 0;
-    background: url(../img/dot-grey.png) #fff; }
+    background: url(img/dot-grey.png) #fff; }
     aside .sidebar-header h2 {
       padding: 4px 32px 4px 10px;
       background-color: #405480;
@@ -3048,7 +3048,7 @@ aside {
       display: inline-block; }
       aside .sidebar-header h2 a {
         color: #fff;
-        background-image: url(../img/icon-24-heading-link.png);
+        background-image: url(img/icon-24-heading-link.png);
         background-repeat: no-repeat;
         background-position: 100% 50%;
         padding-right: 32px; }
@@ -3057,7 +3057,7 @@ aside {
     display: block;
     height: 10px;
     margin: 0 0 0 -10px;
-    background: url(../img/heading-flourish.png) no-repeat bottom left; }
+    background: url(img/heading-flourish.png) no-repeat bottom left; }
   aside .sidebar-nav {
     background-color: #fff;
     padding: 20px 0 0 20px; }
