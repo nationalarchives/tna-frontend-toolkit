@@ -17,7 +17,7 @@ label {
   font-weight: 400;
 }
 input[type="submit"] {
-  padding: 0.3em .5em;
+  padding: 0.3em .9em;
   border: 0;
   height: 40px; /*this height must match the standalone button class for single field forms */
   margin: 0;
@@ -28,8 +28,7 @@ input[type=tel],
 input[type=number],
 input[type=color],
 input[type=email],
-input.width-half,
-#Email /* the Email ID has been applied to single-field email sign-up forms */ {
+input.width-half {
   border: 1px solid #ccc;
   padding: 2px;
   height: 34px;
