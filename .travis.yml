@@ -1,9 +1,12 @@
 script:
- - "test/travis.rb"
+- "test/travis.rb"
 
-language: sass
+language: ruby
+rvm:
+- 2.4.1
 before_install:
- - gem install sass
+- gem install sass
+- chmod +x test/travis.rb
 
 notifications:
   slack:
