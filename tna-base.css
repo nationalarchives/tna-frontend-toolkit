@@ -3411,3 +3411,39 @@ a.hue-teal, a.hue-red {
     @media (min-width: 1240px) {
       .flex-row .intro-card .intro-content .intro-entry {
         width: 68%; } }
+
+.icon-circle {
+  display: inline-block;
+  background-color: #008484;
+  background-size: 68% 68%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  margin: 0 .2em .3em 0;
+  cursor: pointer;
+  transition: .4s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out; }
+
+.icon-circle:hover {
+  background-color: #555; }
+
+.icon-facebook {
+  background-image: url("img/icon-social-facebook.png"); }
+
+.icon-twitter {
+  background-image: url("img/icon-social-twitter.png"); }
+
+.icon-youtube {
+  background-image: url("img/icon-social-youtube-play.png"); }
+
+.icon-flickr {
+  background-image: url("img/icon-social-flickr.png"); }
+
+.icon-rss {
+  background-image: url("img/icon-rss.png"); }
+
+.icon-envelope {
+  background-image: url("img/icon-envelope.png"); }
