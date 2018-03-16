@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nationalarchives/tna-css-toolkit.svg?branch=master)](https://travis-ci.org/nationalarchives/tna-css-toolkit)
+
 # tna-css-toolkit
 
 ### The National Archives CSS frontend toolkit
