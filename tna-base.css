@@ -3412,6 +3412,13 @@ a.hue-teal, a.hue-red {
       .flex-row .intro-card .intro-content .intro-entry {
         width: 68%; } }
 
+.icon {
+  display: inline-block;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0 .2em .3em 0; }
+
 .icon-circle {
   display: inline-block;
   background-color: #008484;
@@ -3452,3 +3459,13 @@ a.hue-teal, a.hue-red {
 
 .icon-envelope {
   background-image: url("img/icon-envelope.png"); }
+
+.icon-logo-gov-uk {
+  background-image: url("img/logo-gov-uk.png");
+  width: 64px;
+  height: 64px; }
+
+.icon-logo-ogl {
+  background-image: url("img/logo-ogl.png");
+  width: 80px;
+  height: 33px; }
