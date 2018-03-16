@@ -4,7 +4,7 @@
 
 A collection of CSS and HTML elements for using as part of your application's frontend.
 
-## 2.0 Installation
+## 1.0 Installation
 
 Coming soon...
 
