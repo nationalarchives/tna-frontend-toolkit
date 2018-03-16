@@ -3430,6 +3430,11 @@ a.hue-teal, a.hue-red {
 .icon-circle:hover {
   background-color: #555; }
 
+.icon-size-26 {
+  background-size: 78% 78%;
+  width: 26px;
+  height: 26px; }
+
 .icon-facebook {
   background-image: url("img/icon-social-facebook.png"); }
 
