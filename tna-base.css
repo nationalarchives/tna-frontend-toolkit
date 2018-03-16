@@ -3469,3 +3469,8 @@ a.hue-teal, a.hue-red {
   background-image: url("img/logo-ogl.png");
   width: 80px;
   height: 33px; }
+
+.icon-logo-tna {
+  background-image: url("img/logo-tna-white.png");
+  width: 288px;
+  height: 48px; }
