@@ -1,0 +1,11 @@
+script:
+ - "test/travis.rb"
+
+language: sass
+before_install:
+ - gem install sass
+
+notifications:
+  slack:
+    rooms:
+      - tna-digital:C2GnodnLsxhwwGvr0xAcajzc#code-builds
