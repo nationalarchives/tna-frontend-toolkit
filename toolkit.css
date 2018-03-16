@@ -7,6 +7,9 @@ main {
 section {
     padding-top: 1px;
 }
+header .icon {
+    margin-top: 20px;
+}
 .examples {
     position: relative;
     padding: 1.6em 1em;
