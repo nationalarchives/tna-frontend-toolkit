@@ -17,7 +17,7 @@ Click 'Remote' in SourceTree and you will be shown a full list of repositories y
 * Create a folder called 'tna-css-toolkit' in the a desired directory
 * Select the 'tna-css-toolkit' repository in SourceTree and clone it to your newly created 'tna-css-toolkit' directory
 
-### 2.2 Create a new project for the WordPress installation in PhpStorm
+### 2.2 Create a new project in PhpStorm
 
 * Select 'Create New Project from Existing Files' 
 * Select 'Source files are in a local directory, no web server is yet configured' 
