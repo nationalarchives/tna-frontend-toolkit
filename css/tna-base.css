@@ -2375,7 +2375,7 @@ article {
   margin-bottom: 1.5em; }
   article .entry-header {
     padding: 10px 10px 0 0;
-    background: url("img/dot-grey.png"); }
+    background: url("../img/dot-grey.png"); }
     article .entry-header h1 {
       font-size: 2em;
       padding: 4px 10px;
@@ -2393,7 +2393,7 @@ article {
       display: inline-block; }
       article .entry-header h2 a {
         color: #fff;
-        background-image: url("img/icon-24-heading-link.png");
+        background-image: url("../img/icon-24-heading-link.png");
         background-repeat: no-repeat;
         background-position: 100% 50%;
         padding-right: 32px; }
@@ -2402,7 +2402,7 @@ article {
     display: block;
     height: 10px;
     margin: 0 0 0 -10px;
-    background: url("img/heading-flourish.png") no-repeat bottom left; }
+    background: url("../img/heading-flourish.png") no-repeat bottom left; }
   article .entry-content {
     padding: 20px; }
     article .entry-content .thumbnail {
@@ -2510,7 +2510,7 @@ ul, ol {
   margin: 0 0 1.5em 0; }
 
 ul li {
-  list-style-image: url("img/list-bullet.png"); }
+  list-style-image: url("../img/list-bullet.png"); }
 
 ul li, ol li {
   margin: 0 0 .75em 0;
@@ -2536,7 +2536,7 @@ ul.full, ul.child, ul.sibling, ul.triplets, ul.quadruplets {
   margin: 0; }
 
 ul.child li, ul.sibling li, ul.triplets li, ul.quadruplets li, ul.full li {
-  list-style-image: url("img/list-link-bullet.png");
+  list-style-image: url("../img/list-link-bullet.png");
   width: 96%;
   float: left;
   margin-bottom: 1em; }
@@ -2937,7 +2937,10 @@ header {
 
 /* TNA footer styles */
 footer {
-  background: #222 url("img/footer-background.png") no-repeat -6em 20px;
+  background-image: url("../img/footer-background.png");
+  background-repeat: no-repeat;
+  background-position: -6em 20px;
+  background-color: #222;
   color: #fff; }
   footer a:active, footer a:link, footer a:visited {
     color: #fce45c; }
@@ -3057,7 +3060,7 @@ aside {
   margin-bottom: 1.5em; }
   aside .sidebar-header {
     padding: 10px 10px 0 0;
-    background: url(img/dot-grey.png) #fff; }
+    background: url("../img/dot-grey.png") #fff; }
     aside .sidebar-header h2 {
       padding: 4px 32px 4px 10px;
       background-color: #405480;
@@ -3067,7 +3070,7 @@ aside {
       display: inline-block; }
       aside .sidebar-header h2 a {
         color: #fff;
-        background-image: url(img/icon-24-heading-link.png);
+        background-image: url("../img/icon-24-heading-link.png");
         background-repeat: no-repeat;
         background-position: 100% 50%;
         padding-right: 32px; }
@@ -3076,7 +3079,7 @@ aside {
     display: block;
     height: 10px;
     margin: 0 0 0 -10px;
-    background: url(img/heading-flourish.png) no-repeat bottom left; }
+    background: url("../img/heading-flourish.png") no-repeat bottom left no-repeat bottom left; }
   aside .sidebar-nav {
     background-color: #fff;
     padding: 20px 0 1em 20px; }
@@ -3327,7 +3330,9 @@ a.hue-teal, a.hue-red {
       padding: 1em; }
       .flex-row .card .entry-date .date {
         color: #444;
-        background: url(../img/icon-calendar.svg) no-repeat 0px 4px;
+        background-imge: url(../img/icon-calendar.svg);
+        background-repeat: no-repeat;
+        background-position: 0px 4px;
         background-size: 1em 1em;
         padding-left: 2em; }
   @media (max-width: 1200px) {
@@ -3443,34 +3448,34 @@ a.hue-teal, a.hue-red {
   height: 26px; }
 
 .icon-facebook {
-  background-image: url("img/icon-social-facebook.png"); }
+  background-image: url("../img/icon-social-facebook.png"); }
 
 .icon-twitter {
-  background-image: url("img/icon-social-twitter.png"); }
+  background-image: url("../img/icon-social-twitter.png"); }
 
 .icon-youtube {
-  background-image: url("img/icon-social-youtube-play.png"); }
+  background-image: url("../img/icon-social-youtube-play.png"); }
 
 .icon-flickr {
-  background-image: url("img/icon-social-flickr.png"); }
+  background-image: url("../img/icon-social-flickr.png"); }
 
 .icon-rss {
-  background-image: url("img/icon-rss.png"); }
+  background-image: url("../img/icon-rss.png"); }
 
 .icon-envelope {
-  background-image: url("img/icon-envelope.png"); }
+  background-image: url("../img/icon-envelope.png"); }
 
 .icon-logo-gov-uk {
-  background-image: url("img/logo-gov-uk.png");
+  background-image: url("../img/logo-gov-uk.png");
   width: 64px;
   height: 64px; }
 
 .icon-logo-ogl {
-  background-image: url("img/logo-ogl.png");
+  background-image: url("../img/logo-ogl.png");
   width: 80px;
   height: 33px; }
 
 .icon-logo-tna {
-  background-image: url("img/logo-tna-white.png");
+  background-image: url("../img/logo-tna-white.png");
   width: 288px;
   height: 48px; }

@@ -1,7 +1,10 @@
 /* TNA footer styles */
 
 footer {
-  background: $tna_dark url("img/footer-background.png") no-repeat -6em 20px;
+  background-image: $tna_footer_bg;
+  background-repeat: no-repeat;
+  background-position: -6em 20px;
+  background-color: $tna_dark;
   color: $tna_white;
   a:active, a:link, a:visited {
     color: $tna_yellow;

@@ -113,7 +113,9 @@
       padding: 1em;
       .date {
         color: #444;
-        background: url(../img/icon-calendar.svg) no-repeat 0px 4px;
+        background-imge: $tna_icon_calendar;
+        background-repeat: no-repeat;
+        background-position: 0px 4px;
         background-size: 1em 1em;
         padding-left: 2em;
       }
