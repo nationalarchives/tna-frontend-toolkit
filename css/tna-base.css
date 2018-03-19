@@ -2946,7 +2946,8 @@ footer {
   background-repeat: no-repeat;
   background-position: -6em 20px;
   background-color: #222;
-  color: #fff; }
+  color: #fff;
+  padding: 1em; }
   footer a:active, footer a:link, footer a:visited {
     color: #fce45c; }
   footer .footer-col {

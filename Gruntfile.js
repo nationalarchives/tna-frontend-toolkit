@@ -20,8 +20,8 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'css/tna-base.css.min': ['tna-base.css'],
-                    'css/tna-forms.css.min': ['tna-forms.css']
+                    'css/tna-base.css.min': ['css/tna-base.css'],
+                    'css/tna-forms.css.min': ['css/tna-forms.css']
                 }
             }
         },

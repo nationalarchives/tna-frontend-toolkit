@@ -6,6 +6,7 @@ footer {
   background-position: -6em 20px;
   background-color: $tna_dark;
   color: $tna_white;
+  padding: 1em;
   a:active, a:link, a:visited {
     color: $tna_yellow;
   }
@@ -88,7 +89,6 @@ footer {
 }
 .footer-col{
   padding:0 20px 0 20px;
-
   .opening-times {
     .open_table{
       display: table;
@@ -119,7 +119,6 @@ footer {
       margin-top: 40px;
     }
   }
-
   @media (max-width:767px) {
     box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -147,7 +146,6 @@ footer {
     float:none !important;
     max-width: 320px;
   }
-
   .open-white{
     margin-top: 0;
     margin-left: auto;
@@ -155,6 +153,5 @@ footer {
     float:none !important;
     max-width: 320px;
     margin-bottom: 10px;
-
   }
 }
