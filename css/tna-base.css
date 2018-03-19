@@ -2549,7 +2549,7 @@ ul.sibling {
   margin: 0; }
 
 ul.sibling li {
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", "Open Sans", arial, serif;
   font-size: 1.2em;
   padding-bottom: 0 !important; }
 
@@ -2609,7 +2609,7 @@ ul.form-selectable li span input[type=checkbox] {
   width: 18%; }
 
 #disc-menu li a, #numbered-menu li a {
-  font-family: 'Bitter', Georgia, Verdana, Arial, Helvetica, serif;
+  font-family: "Bitter", "Open Sans", arial, serif;
   font-size: 1.5em;
   display: inline-block;
   background-color: #008484;
@@ -2636,7 +2636,7 @@ ul.form-selectable li span input[type=checkbox] {
 
 #menu-disc li a, #menu-disc li span.disabled,
 #a-z-menu li a, #a-z-menu li span.disabled {
-  font-family: 'Bitter',Georgia, Verdana, Arial, Helvetica, serif;
+  font-family: "Bitter", "Open Sans", arial, serif;
   font-size: 1.25em;
   display: inline-block;
   width: 40px;

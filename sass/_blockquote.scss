@@ -30,7 +30,7 @@ blockquote {
     margin-left: -10px;
     margin-top: -130px;
     position: absolute;
-    font-family: "MS Serif", "New York", serif;
+    font-family: $tna_quote_font;
     content: "\201C";
   }
 }
