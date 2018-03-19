@@ -27,7 +27,7 @@ Click 'Remote' in SourceTree and you will be shown a full list of repositories y
 
 ### 2.3 Running Grunt
 
-Assuming that the Grunt CLI has been installed follow the instructions on the [Grunt website](http://gruntjs.com/getting-started#working-with-an-existing-grunt-project).
+Assuming that the [Grunt CLI](https://gruntjs.com/getting-started#installing-the-cli) has been installed follow the instructions on the [Grunt website](http://gruntjs.com/getting-started#working-with-an-existing-grunt-project).
 
 #### 2.3.1 Available Grunt Tasks 
 
