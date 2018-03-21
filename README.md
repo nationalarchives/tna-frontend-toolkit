@@ -35,3 +35,17 @@ There are several Grunt tasks available to developers. View the Gruntfile.js for
 
 * ```grunt``` will run a predefined set of tasks and result in an ongoing 'watch' tasks which responds to any changes to JavaScript and SASS files by compiling, concatenating and minifying the output.
 
+## Features
+
+### Bootstrap 3.3.6
+
+Mobile first front-end framework, a stripped down version to the core grid elements http://getbootstrap.com/
+
+### Sass
+
+A CSS extension language https://sass-lang.com/
+
+### Grunt
+
+Grunt as a task manager to aid development http://gruntjs.com/
+
