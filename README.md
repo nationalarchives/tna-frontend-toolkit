@@ -4,7 +4,7 @@
 
 ### The National Archives CSS frontend toolkit
 
-A collection of CSS and HTML elements for using as part of your application's frontend.
+A collection of CSS and HTML elements for using as part of your application's frontend. A way of creating flexible and unique layouts whilst also maintaining consistency across TNA online. For more information please see our [Design guide](http://www.nationalarchives.gov.uk/design-guide/).
 
 ## 1.0 Installation
 
@@ -34,4 +34,18 @@ Assuming that the [Grunt CLI](https://gruntjs.com/getting-started#installing-the
 There are several Grunt tasks available to developers. View the Gruntfile.js for a listing of included tasks
 
 * ```grunt``` will run a predefined set of tasks and result in an ongoing 'watch' tasks which responds to any changes to JavaScript and SASS files by compiling, concatenating and minifying the output.
+
+## Features
+
+### Bootstrap 3.3.6
+
+Mobile first front-end framework, a stripped down version to the core grid elements http://getbootstrap.com/
+
+### Sass
+
+A CSS extension language https://sass-lang.com/
+
+### Grunt
+
+Grunt as a task manager to aid development http://gruntjs.com/
 
