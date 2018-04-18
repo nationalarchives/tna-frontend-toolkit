@@ -688,10 +688,8 @@ label {
   font-weight: 400; }
 
 input[type="submit"] {
-  padding: 0.3em .9em;
+  padding: 0.5em .9em;
   border: 0;
-  height: 40px;
-  /*this height must match the standalone button class for single field forms */
   margin: 0; }
 
 input[type=text],
@@ -700,6 +698,7 @@ input[type=tel],
 input[type=number],
 input[type=color],
 input[type=email],
+input[type=date],
 input.width-half {
   border: 1px solid #ccc;
   padding: 2px;
