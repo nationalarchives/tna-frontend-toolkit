@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/nationalarchives/tna-css-toolkit.svg?branch=master)](https://travis-ci.org/nationalarchives/tna-css-toolkit)
 
-# tna-css-toolkit
+# tna-frontend-toolkit
 
-### The National Archives CSS frontend toolkit
+### The National Archives frontend toolkit
 
 A collection of CSS and HTML elements for using as part of your application's frontend. A way of creating flexible and unique layouts whilst also maintaining consistency across TNA online. For more information please see our [Design guide](http://www.nationalarchives.gov.uk/design-guide/).
 
