@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nationalarchives/tna-css-toolkit.svg?branch=master)](https://travis-ci.org/nationalarchives/tna-css-toolkit)
+[![Build Status](https://travis-ci.org/nationalarchives/tna-frontend-toolkit.svg?branch=master)](https://travis-ci.org/nationalarchives/tna-frontend-toolkit)
 
 # tna-frontend-toolkit
 
