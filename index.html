@@ -13,7 +13,7 @@
 
 	<link rel="stylesheet" id="tna-google-fonts"  href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%2C400italic%2C700italic%7CBitter&#038;ver=4.4.14" type="text/css" media="all" />
 	<link rel="stylesheet" href="./css/toolkit.css?v=1.0">
-	<link rel="stylesheet" href="./css/tna-base.css?v=1.0">
+	<link rel="stylesheet" href="./tna-base/1.0/css/tna-base.css?v=1.0">
 
 	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="img/favicon.ico">
 	<link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico">
@@ -39,10 +39,7 @@
 <header>
 	<div class="container">
 		<div class="row" id="header">
-			<div class="col-md-6">
-				<h1>TNA CSS Frontend Toolkit</h1>
-			</div>
-			<div class="col-md-6 text-right">
+			<div class="col-md-12">
 				<div class="icon icon-logo-tna"></div>
 			</div>
 		</div>
@@ -68,7 +65,7 @@
 		</div>
 		<div class="col-md-9" id="content">
 			<section id="intro">
-				<h2>The National Archives CSS frontend toolkit</h2>
+				<h1>The National Archives frontend toolkit</h1>
 				<hr>
 				<p>A collection of CSS and HTML elements for using as part of your application's frontend. A way of creating flexible and unique layouts whilst also maintaining consistency across TNA online.</p>
 				<p>Designers and developers can use the toolkit to:</p>
@@ -78,6 +75,15 @@
 				</ul>
 				<p><a href="https://github.com/nationalarchives/tna-css-toolkit" class="button" role="button" target="_blank">Download toolkit</a></p>
 				<p>For more information please see our <a href="http://www.nationalarchives.gov.uk/design-guide/" target="_blank">Design guide</a>.</p>
+				<h2>Usage</h2>
+				<!-- Code example -->
+
+<pre><code>&lt;!-- TNA-base core CSS --&gt;
+&lt;link rel="stylesheet" href="https://cdn.nationalarchives.gov.uk/tna-base/1.0/css/tna-base.css"&gt;
+
+&lt;!-- TNA-base core minified CSS --&gt;
+&lt;link rel="stylesheet" href="https://cdn.nationalarchives.gov.uk/tna-base/1.0/css/tna-base.min.css"&gt;</code></pre>
+
 			</section>
 
 			<!--
@@ -157,7 +163,7 @@
 							<div class="row">
 								<div class="col-xs-2 col-sm-5">
 									<a href="http://www.nationalarchives.gov.uk" title="Go to The National Archives homepage">
-										<img src="img/logo-tna-white.png" alt="The National Archives" class="img-responsive">
+										<img src="tna-base/1.0/img/logo-tna-white.png" alt="The National Archives" class="img-responsive">
 									</a>
 								</div>
 							</div>
