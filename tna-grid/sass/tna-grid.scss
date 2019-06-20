@@ -24,20 +24,15 @@ html {
 
 @import "bootstrap-4.3.1/functions";
 @import "bootstrap-4.3.1/variables";
+@import "bootstrap-4.3.1/mixins";
 @import "bootstrap-4.3.1/reboot";
-
-@import "bootstrap-4.3.1/mixins/breakpoints";
-@import "bootstrap-4.3.1/mixins/grid-framework";
-@import "bootstrap-4.3.1/mixins/grid";
 
 @import "bootstrap-4.3.1/grid";
 @import "bootstrap-4.3.1/utilities/display";
 @import "bootstrap-4.3.1/utilities/flex";
 @import "bootstrap-4.3.1/utilities/spacing";
-@import "bootstrap-4.3.1/utilities/clearfix";
 
 @import "bootstrap-4.3.1/images";
-@import "bootstrap-4.3.1/mixins/image";
 
 /*!
  * TNA Grid

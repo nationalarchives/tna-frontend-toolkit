@@ -12,6 +12,7 @@
 # .idea/workspace.xml
 # .idea/tasks.xml
 /.sass-cache
+.sass-cache
 # .idea/dictionaries
 
 # Sensitive or high-churn files:
