@@ -1,5 +1,5 @@
 /*!
- * TNA Grid Toolkit with Bootstrap
+ * TNA Grid Toolkit with Bootstrap Grid
  * Toolkit URI: https://github.com/nationalarchives/tna-frontend-toolkit
  * Author URI: https://github.com/nationalarchives
  * Version: 1.0
@@ -31,6 +31,7 @@ html {
 @import "bootstrap-4.3.1/utilities/display";
 @import "bootstrap-4.3.1/utilities/flex";
 @import "bootstrap-4.3.1/utilities/spacing";
+@import "bootstrap-4.3.1/utilities/float";
 
 @import "bootstrap-4.3.1/images";
 
@@ -38,3 +39,7 @@ html {
  * TNA Grid
  */
 
+@import "variables";
+@import "typography";
+@import "header";
+@import "notifications";

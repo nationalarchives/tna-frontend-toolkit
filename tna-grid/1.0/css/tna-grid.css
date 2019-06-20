@@ -1,5 +1,5 @@
 /*!
- * TNA Grid Toolkit with Bootstrap
+ * TNA Grid Toolkit with Bootstrap Grid
  * Toolkit URI: https://github.com/nationalarchives/tna-frontend-toolkit
  * Author URI: https://github.com/nationalarchives
  * Version: 1.0
@@ -3404,6 +3404,51 @@ template {
   .ml-xl-auto,
   .mx-xl-auto {
     margin-left: auto !important; } }
+.float-left {
+  float: left !important; }
+
+.float-right {
+  float: right !important; }
+
+.float-none {
+  float: none !important; }
+
+@media (min-width: 576px) {
+  .float-sm-left {
+    float: left !important; }
+
+  .float-sm-right {
+    float: right !important; }
+
+  .float-sm-none {
+    float: none !important; } }
+@media (min-width: 768px) {
+  .float-md-left {
+    float: left !important; }
+
+  .float-md-right {
+    float: right !important; }
+
+  .float-md-none {
+    float: none !important; } }
+@media (min-width: 992px) {
+  .float-lg-left {
+    float: left !important; }
+
+  .float-lg-right {
+    float: right !important; }
+
+  .float-lg-none {
+    float: none !important; } }
+@media (min-width: 1200px) {
+  .float-xl-left {
+    float: left !important; }
+
+  .float-xl-right {
+    float: right !important; }
+
+  .float-xl-none {
+    float: none !important; } }
 .img-fluid {
   max-width: 100%;
   height: auto; }
@@ -3430,3 +3475,58 @@ template {
 /*!
  * TNA Grid
  */
+/* TNA fonts */
+/* TNA colours */
+/* TNA Icons/Images */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6; }
+
+hr {
+  height: 0;
+  border: 0;
+  margin: 1em 0;
+  clear: both;
+  width: 100%;
+  border-bottom: 1px solid #ECECEC; }
+
+h1, h2, h3, h4 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  z-index: 2;
+  line-height: 1.6;
+  letter-spacing: -.025em; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.6em; }
+
+h3 {
+  font-size: 1.3em; }
+
+h4 {
+  font-size: 1.16em; }
+
+p {
+  margin: 0 0 1.5em; }
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1em 0;
+  overflow: hidden; }
+  header .logo {
+    max-height: 50px; }
+
+.notification-banner {
+  background-color: #fce45c; }
+  .notification-banner p {
+    margin: 0.3em; }
+    .notification-banner p strong {
+      background-color: #fff;
+      text-transform: uppercase;
+      padding: 0.1em 0.4em;
+      margin-right: 1em; }
