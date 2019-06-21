@@ -1,0 +1,48 @@
+.content-area {
+  .entry-header {
+    border: 2px solid #000;
+    padding: 0.6em 1.6em;
+    margin-bottom: 1.6em;
+    h1 {
+      color: #000;
+      margin: 0;
+    }
+    h2 {
+      margin: 0;
+    }
+  }
+  .entry-content {
+    margin-bottom: 3.2em;
+  }
+  .banner {
+    background-position: center center;
+    background-size: cover;
+    height: 288px;
+    margin-bottom: 1.6em;
+    .entry-header {
+      background-color: #fff;
+      margin-left: 15px;
+      margin-top: 1em;
+      display: inline-block;
+    }
+    .entry-content {
+      width: 100%;
+      padding: 0 60px;
+      p {
+        font-family: $tna_heading_font;
+        display: inline-block;
+        background-color: #fff;
+        margin: 0;
+        border: 2px solid #000;
+        padding: 0.5em 0.9em;
+      }
+      .button {
+        margin-top: -2px;
+      }
+    }
+  }
+}
+.breadcrumbs {
+  margin: 1em 0;
+  font-size: .9em;
+}
