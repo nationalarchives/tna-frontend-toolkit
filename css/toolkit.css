@@ -63,6 +63,11 @@ ul.colours  {
     padding-left: 0 !important;
     margin: 0 !important;
 }
+.logo {
+    margin-top: 2.4em;
+    max-width: 90px;
+    height: auto;
+}
 pre {
     display: block;
     padding: 1.6em;
