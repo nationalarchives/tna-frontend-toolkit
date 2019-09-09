@@ -3719,3 +3719,47 @@ template {
 /*!
  * TNA Frontend
  */
+/* TNA fonts */
+/* TNA colours */
+.button {
+  font-family: "Roboto Mono", monospace;
+  background-color: #26262a;
+  color: #fff;
+  border: 2px solid #26262a;
+  padding: 0.5em 0.9em;
+  display: inline-block;
+  min-width: 24px;
+  text-align: center; }
+  .button:hover {
+    background-color: #fff;
+    color: #26262a;
+    text-decoration: none; }
+  .button:focus {
+    outline: 0; }
+  .button--primary {
+    background-color: #fff;
+    color: #26262a; }
+    .button--primary:hover {
+      background-color: #26262a;
+      color: #fff; }
+  .button--secondary {
+    border-color: #eee;
+    background-color: #eee;
+    color: #26262a; }
+    .button--secondary:hover {
+      background-color: #26262a;
+      color: #fff; }
+  .button--tertiary {
+    border-color: #fff;
+    background-color: #fff;
+    color: #26262a; }
+    .button--tertiary:hover {
+      background-color: #26262a;
+      color: #fff; }
+  .button--invert {
+    border-color: #eee;
+    background-color: transparent;
+    color: #eee; }
+    .button--invert:hover {
+      background-color: #26262a;
+      color: #fff; }
