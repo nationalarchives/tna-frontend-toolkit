@@ -3776,6 +3776,41 @@ ul {
     list-style-type: none;
     padding: 0; }
 
+.card {
+  width: 100%;
+  margin-bottom: 2.4em; }
+  .card a {
+    position: relative;
+    display: block;
+    width: 100%; }
+    .card a:hover {
+      text-decoration: none; }
+      .card a:hover h3 {
+        text-decoration: underline; }
+  .card__image {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 185px;
+    background: #eee center center;
+    background-size: cover; }
+  .card__label {
+    position: absolute;
+    height: 32px;
+    bottom: 0;
+    left: 0;
+    font-size: 0.9em;
+    padding: 5px 10px 3px 10px;
+    background: #26262a;
+    color: #fff; }
+  .card__content h3 {
+    border-top: 2px solid #26262a;
+    padding-top: 10px;
+    margin-top: 0;
+    margin-bottom: 26px; }
+  .card__content p {
+    color: #26262a; }
+
 .button {
   font-family: "Roboto Mono", monospace;
   background-color: #26262a;

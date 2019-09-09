@@ -57,9 +57,9 @@
                     </ul>
 
             </div>-->
-			<div class="col-md-9" id="content">
+			<div class="col-md-10" id="content">
 				<section id="intro">
-					<h1>The National Archives frontend toolkit</h1>
+					<h1>The National Archives <br>frontend toolkit</h1>
 					<hr>
 					<p>A collection of CSS and HTML elements for using as part of your application's frontend. A way of creating flexible and unique layouts whilst also maintaining consistency across TNA online.</p>
 					<p>Designers and developers can use the toolkit to:</p>
@@ -161,15 +161,16 @@
 					<p class="text-right"><a href="#intro"><small>Back to top</small></a></p>
 					<h3>Content cards</h3>
 					<h5>Examples</h5>
-					<div class="examples cards">
+					<div class="examples">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-4">
 									<div class="card">
 										<a href="#">
-											<div class="entry-image"></div>
-											<div class="entry-content">
-												<div class="content-type">Label</div>
+											<div class="card__image">
+												<div class="card__label">Label</div>
+											</div>
+											<div class="card__content">
 												<h3>Card title</h3>
 												<p>Labore habemus in duo. Velit labore habemus in duo, ne hinc platonem instructior pri.</p>
 											</div>
@@ -179,11 +180,12 @@
 								<div class="col-md-4">
 									<div class="card">
 										<a href="#">
-											<div class="entry-image"></div>
-											<div class="entry-content">
-												<div class="content-type">Label</div>
+											<div class="card__image">
+												<div class="card__label">Label</div>
+											</div>
+											<div class="card__content">
 												<h3>Card title</h3>
-												<p>Velit labore habemus in duo, ne hinc platonem instructior pri.</p>
+												<p>Labore habemus in duo. Velit labore habemus in duo, ne hinc platonem instructior pri.</p>
 											</div>
 										</a>
 									</div>
@@ -191,45 +193,10 @@
 								<div class="col-md-4">
 									<div class="card">
 										<a href="#">
-											<div class="entry-image"></div>
-											<div class="entry-content">
-												<div class="content-type">Label</div>
-												<h3>Card title</h3>
-												<p>Hinc platonem instructior. Velit labore habemus in duo, ne hinc platonem instructior pri.</p>
+											<div class="card__image">
+												<div class="card__label">Label</div>
 											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="card">
-										<a href="#">
-											<div class="entry-image"></div>
-											<div class="entry-content">
-												<div class="content-type">Label</div>
-												<h3>Card title</h3>
-												<p>Velit labore habemus in duo, ne hinc platonem instructior pri.</p>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="card">
-										<a href="#">
-											<div class="entry-image"></div>
-											<div class="entry-content">
-												<div class="content-type">Label</div>
-												<h3>Card title</h3>
-												<p>Velit labore habemus in duo, ne hinc platonem instructior habemus pri.</p>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="card">
-										<a href="#">
-											<div class="entry-image"></div>
-											<div class="entry-content">
-												<div class="content-type">Label</div>
+											<div class="card__content">
 												<h3>Card title</h3>
 												<p>Labore habemus in duo. Velit labore habemus in duo, ne hinc platonem instructior pri.</p>
 											</div>
@@ -242,41 +209,20 @@
 					<h5>Usage</h5>
 					<!-- Code example -->
 
-					<pre><code>&lt;div class="row cards"&gt;
+					<pre><code>&lt;div class="row"&gt;
   &lt;div class="col-md-4"&gt;
     &lt;div class="card"&gt;
       &lt;a href="#"&gt;
-        &lt;div class="entry-image"&gt;&lt;/div&gt;
-        &lt;div class="entry-content"&gt;
-          &lt;div class="content-type"&gt;Label&lt;/div&gt;
+        &lt;div class="card__image"&gt;
+          &lt;div class="card__label"&gt;Label&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="card__content"&gt;
           &lt;h3&gt;Card title&lt;/h3&gt;
           &lt;p&gt;...&lt;/p&gt;
         &lt;/div&gt;
       &lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-
-					<!-- Code example end -->
-					<p class="text-right"><a href="#intro"><small>Back to top</small></a></p>
-					<h3>Breadcrumb navigation</h3>
-					<h5>Examples</h5>
-					<div class="examples">
-						<div class="breadcrumbs">
-							<span><a href="#">Home</a></span>
-							<span class="sep">&gt;</span> <span><a href="#">About</a></span>
-							<span class="sep">&gt;</span> <span><a href="#">Jobs</a></span>
-							<span class="sep">&gt;</span> <span class="current">Our people</span>
-						</div>
-					</div>
-					<h5>Usage</h5>
-					<!-- Code example -->
-
-					<pre><code>&lt;div class="breadcrumbs"&gt;
-    &lt;span&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/span&gt;
-    &lt;span class="sep"&gt;&amp;gt;&lt;/span&gt; &lt;span&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/span&gt;
-    &lt;span class="sep"&gt;&amp;gt;&lt;/span&gt; &lt;span&gt;&lt;a href="#"&gt;Jobs&lt;/a&gt;&lt;/span&gt;
-    &lt;span class="sep"&gt;&amp;gt;&lt;/span&gt; &lt;span class+"current"&gt;Our people&lt;/span&gt;
 &lt;/div&gt;</code></pre>
 
 					<!-- Code example end -->
