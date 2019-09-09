@@ -110,15 +110,15 @@
 					<hr>
 					<h3>Default page layout</h3>
 					<h5>Examples</h5>
-					<div class="examples page">
+					<div class="examples page-default">
 						<div class="container">
 							<div class="row">
 								<main class="col-xs-12 col-sm-8" role="main">
 									<article>
-										<div class="entry-header">
+										<div class="page-default__header">
 											<h1>Main</h1>
 										</div>
-										<div class="entry-content">
+										<div class="page-default__entry">
 											<p>Lorem ipsum dolor sit amet, suas graeci ius no. Solet postea duo et, esse fastidii inimicus in eam. Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus.</p>
 											<p>Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus. Lorem ipsum dolor sit amet, suas graeci ius no. Solet postea duo et, esse fastidii inimicus in eam.</p>
 											<p>Solet postea duo et, esse fastidii inimicus in eam. Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus.</p>
@@ -126,13 +126,12 @@
 									</article>
 								</main>
 								<aside class="col-xs-12 col-sm-4" role="complementary">
-									<div class="sidebar-header">
+									<div class="page-default__sidebar">
 										<h2><a href="#">Aside</a></h2>
-									</div>
-									<div class="sidebar-content">
-										<ul>
-											<li><a href="#">Sibling page link</a></li>
-											<li><a href="#">Sibling page link</a></li>
+										<ul class="page-default__sidebar__nav">
+											<li><a href="#">Main page</a></li>
+											<li><a href="#">Sibling page</a></li>
+											<li><a href="#">Sibling page</a></li>
 										</ul>
 									</div>
 								</aside>
@@ -142,26 +141,26 @@
 					<h5>Usage</h5>
 					<!-- Code example -->
 
-					<pre><code>&lt;div class="container"&gt;
-  &lt;div class="row"&gt;
-    &lt;main class="col-xs-12 col-sm-8" role="main"&gt;
-      &lt;article&gt;
-        &lt;div class="entry-header"&gt;
-          &lt;h1&gt;Main&lt;/h1&gt;
+					<pre><code>&lt;div class="page-default"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;main class="col-xs-12 col-sm-8" role="main"&gt;
+        &lt;article&gt;
+          &lt;div class="page-default__header"&gt;
+            &lt;h1&gt;Main&lt;/h1&gt;
+          &lt;/div&gt;
+          &lt;div class="page-default__entry"&gt;
+            &lt;p&gt;...&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/article&gt;
+      &lt;/main&gt;
+      &lt;aside class="col-xs-12 col-sm-4" role="complementary"&gt;
+        &lt;div class="page-default__sidebar"&gt;
+          &lt;h2&gt;Aside&lt;/h2&gt;
+          ...
         &lt;/div&gt;
-        &lt;div class="entry-content"&gt;
-          &lt;p&gt;...&lt;/p&gt;
-        &lt;/div&gt;
-      &lt;/article&gt;
-    &lt;/main&gt;
-    &lt;aside class="col-xs-12 col-sm-4" role="complementary"&gt;
-      &lt;div class="sidebar-header"&gt;
-        &lt;h2&gt;Aside&lt;/h2&gt;
-      &lt;/div&gt;
-      &lt;div class="sidebar-content"&gt;
-        ...
-      &lt;/div&gt;
-    &lt;/aside&gt;
+      &lt;/aside&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
