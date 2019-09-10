@@ -81,3 +81,7 @@ pre {
     border: 1px solid #ccc;
     border-radius: 0;
 }
+
+.ul--menu {
+    max-width: 360px;
+}

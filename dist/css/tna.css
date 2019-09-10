@@ -3751,10 +3751,52 @@ p {
 
 ul {
   margin-bottom: 1.6em; }
+  ul li {
+    margin-bottom: 0.2em; }
 
 .container {
   max-width: 1240px;
   width: 100%; }
+
+.ul--no-bullet {
+  list-style-type: none;
+  padding: 0; }
+.ul--menu {
+  list-style-type: none;
+  padding: 0; }
+  .ul--menu li {
+    padding: 0;
+    margin: 0; }
+    .ul--menu li a {
+      display: block;
+      border-top: 1px solid #eee;
+      padding: 0.3em 0.2em;
+      margin: 0; }
+    .ul--menu li a:hover {
+      background-color: #eee;
+      text-decoration: none; }
+.ul--menu-disc {
+  font-family: "Roboto Mono", monospace;
+  list-style-type: none;
+  padding: 0; }
+  .ul--menu-disc li {
+    margin: 0;
+    display: inline-block; }
+  .ul--menu-disc a {
+    display: block;
+    color: #fff;
+    background-color: #26262a;
+    text-align: center;
+    border: 2px solid #26262a;
+    font-size: 1.25em;
+    line-height: 44px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%; }
+  .ul--menu-disc a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #26262a; }
 
 .blockquote {
   font-family: "Roboto Mono", monospace;
