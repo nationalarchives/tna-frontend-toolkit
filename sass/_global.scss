@@ -8,6 +8,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $font__heading;
   font-weight: normal;
   line-height: 1.6;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 h1, .h1 {
   font-size: 2.4em;
@@ -26,4 +28,8 @@ p {
 }
 ul {
   margin-bottom: 1.6em;
+}
+.container {
+  max-width: 1240px;
+  width: 100%;
 }

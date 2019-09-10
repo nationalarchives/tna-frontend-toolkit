@@ -1,6 +1,8 @@
 /* TNA fonts */
-$font__body: 'Open Sans', sans-serif;
-$font__heading: 'Roboto Mono', monospace;
+$font__open-sans: 'Open Sans', sans-serif;
+$font__roboto-mono: 'Roboto Mono', monospace;
+$font__body: $font__open-sans;
+$font__heading: $font__roboto-mono;
 
 /* TNA colours */
 $color__black: #26262a;

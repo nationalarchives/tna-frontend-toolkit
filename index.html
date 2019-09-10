@@ -60,7 +60,7 @@
 			<div class="col-md-10" id="content">
 				<section id="intro">
 					<h1>The National Archives <br>frontend toolkit</h1>
-					<hr>
+					
 					<p>A collection of CSS and HTML elements for using as part of your application's frontend. A way of creating flexible and unique layouts whilst also maintaining consistency across TNA online.</p>
 					<p>Designers and developers can use the toolkit to:</p>
 					<ul>
@@ -100,7 +100,7 @@
                 -->
 				<section id="grid">
 					<h2>Grid and layout</h2>
-					<hr>
+					
 					<h3>Default page layout</h3>
 					<h5>Examples</h5>
 					<div class="examples page-default">
@@ -238,7 +238,7 @@
                 -->
 				<section id="typography">
 					<h2>Typography</h2>
-					<hr>
+					
 					<h3>Headings</h3>
 					<h5>Examples</h5>
 					<div class="examples">
@@ -280,11 +280,16 @@
 							<div class="row">
 								<div class="col-lg-12">
 									<p>Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus. Lorem ipsum dolor sit amet, suas graeci ius no. Solet postea duo et, esse fastidii inimicus in eam. Solet postea duo et, esse fastidii inimicus in eam. Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus.</p>
-									<blockquote>
-										<p>The quote appears outdented within an article with a border. The quote should be a single paragraph with the provider of the quote applied using the Attribution function. The quote provider’s will then appear to the bottom right of the quote at a smaller size.</p>
-										<p><cite>Source Title</cite></p>
+									<blockquote class="blockquote">
+										<p>The quote appears within an article with a border. The quote should be a single paragraph with the provider of the quote applied using the Attribution function. The quote provider’s will then appear to the bottom right of the quote at a smaller size.</p>
+										<cite class="blockquote__cite">Source title</cite>
 									</blockquote>
 									<p>Solet postea duo et, esse fastidii inimicus in eam. Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus.</p>
+									<blockquote class="blockquote blockquote--outdent">
+										<p>The quote appears <strong>outdented</strong> within an article with a border. The quote should be a single paragraph with the provider of the quote applied using the Attribution function. The quote provider’s will then appear to the bottom right of the quote at a smaller size.</p>
+										<cite class="blockquote__cite">Source title</cite>
+									</blockquote>
+									<p>Lorem ipsum dolor sit amet, suas graeci ius no. Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus. Solet postea duo et, esse fastidii inimicus in eam. Solet postea duo et, esse fastidii inimicus in eam. Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus.</p>
 								</div>
 							</div>
 						</div>
@@ -292,9 +297,14 @@
 					<h5>Usage</h5>
 					<!-- Code example -->
 
-					<pre><code>&lt;blockquote&gt;
+					<pre><code>&lt;blockquote class="blockquote"&gt;
 	&lt;p&gt;The quote appears...&lt;/p&gt;
-	&lt;p&gt;&lt;cite&gt;Quote source...&lt;/cite&gt;&lt;/p&gt;
+	&lt;cite&gt;Quote source...&lt;/cite&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote class="blockquote blockquote--outdent"&gt;
+	&lt;p&gt;The quote appears...&lt;/p&gt;
+	&lt;cite&gt;Quote source...&lt;/cite&gt;
 &lt;/blockquote&gt;</code></pre>
 
 					<!-- Code example end -->
@@ -305,17 +315,17 @@
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-12">
-									<blockquote class="emphasis-block">
-										<p>The quote appears outdented within an article with a black background. The quote should be a single paragraph with the provider of the quote if applicable.</p>
+									<p>Emphasis blockquote</p>
+									<blockquote class="blockquote blockquote--emphasis">
+										<p class="mb-0">The quote appears within an article with a black background. The quote should be a single paragraph with the provider of the quote if applicable.</p>
 									</blockquote>
-									<blockquote class="emphasis-alert">
-										<p>The quote appears outdented within an article with a yellow background. The quote should be a single paragraph with the provider of the quote if applicable.</p>
+									<p>Alert blockquote</p>
+									<blockquote class="blockquote blockquote--alert">
+										<p class="mb-0">The quote appears within an article with a yellow background. The quote should be a single paragraph with the provider of the quote if applicable.</p>
 									</blockquote>
-									<blockquote class="emphasis-success">
-										<p>The quote appears outdented within an article with a green background. The quote should be a single paragraph with the provider of the quote if applicable.</p>
-									</blockquote>
-									<blockquote class="emphasis-error">
-										<p>The quote appears outdented within an article with a pink background. The quote should be a single paragraph with the provider of the quote if applicable.</p>
+									<p>Success blockquote</p>
+									<blockquote class="blockquote blockquote--success">
+										<p class="mb-0">The quote appears within an article with a green background. The quote should be a single paragraph with the provider of the quote if applicable.</p>
 									</blockquote>
 								</div>
 							</div>
@@ -324,20 +334,16 @@
 					<h5>Usage</h5>
 					<!-- Code example -->
 
-					<pre><code>&lt;blockquote class="emphasis-block"&gt;
-	&lt;p&gt;The quote appears...&lt;/p&gt;
+					<pre><code>&lt;blockquote class="blockquote blockquote--emphasis"&gt;
+	&lt;p class="mb-0"&gt;The quote appears...&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;blockquote class="emphasis-alert"&gt;
-	&lt;p&gt;The quote appears...&lt;/p&gt;
+&lt;blockquote class="blockquote blockquote--alert"&gt;
+	&lt;p class="mb-0"&gt;The quote appears...&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;blockquote class="emphasis-success"&gt;
-	&lt;p&gt;The quote appears...&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote class="emphasis-error"&gt;
-	&lt;p&gt;The quote appears...&lt;/p&gt;
+&lt;blockquote class="blockquote blockquote--success"&gt;
+	&lt;p class="mb-0"&gt;The quote appears...&lt;/p&gt;
 &lt;/blockquote&gt;</code></pre>
 
 					<!-- Code example end -->
@@ -353,7 +359,6 @@
                 -->
 				<section id="lists">
 					<h2>Lists</h2>
-					<hr>
 					<h3>Unordered list</h3>
 					<h5>Examples</h5>
 					<div class="examples">
@@ -529,7 +534,7 @@
                 -->
 				<section id="buttons">
 					<h2>Buttons</h2>
-					<hr>
+					
 					<h3>Link buttons</h3>
 					<h5>Examples</h5>
 					<div class="examples">
@@ -561,7 +566,7 @@
                 -->
 				<section id="colours">
 					<h2>Colours</h2>
-					<hr>
+					
 					<h3>Contextual backgrounds</h3>
 					<h5>Examples</h5>
 					<div class="examples">
@@ -594,7 +599,7 @@
                 -->
 				<section id="forms">
 					<h2>Forms</h2>
-					<hr>
+					
 					<h3>Basic form</h3>
 					<h5>Examples</h5>
 					<div class="examples">
@@ -645,7 +650,7 @@
                 -->
 				<section id="tables">
 					<h2>Tables</h2>
-					<hr>
+					
 					<h3>Default table</h3>
 					<h5>Examples</h5>
 					<div class="examples">
@@ -696,7 +701,7 @@
                 -->
 				<section id="icons">
 					<h2>Icons</h2>
-					<hr>
+					
 					<h3>Icons</h3>
 					<h5>Examples</h5>
 					<div class="examples">
@@ -758,7 +763,7 @@
 
 			</div>
 			<div class="col-md-12" id="section-footer">
-				<hr>
+				
 			</div>
 		</div>
 	</div>

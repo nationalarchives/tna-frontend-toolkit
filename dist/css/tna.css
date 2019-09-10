@@ -3730,7 +3730,9 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Roboto Mono", monospace;
   font-weight: normal;
-  line-height: 1.6; }
+  line-height: 1.6;
+  margin-top: 20px;
+  margin-bottom: 10px; }
 
 h1, .h1 {
   font-size: 2.4em; }
@@ -3749,6 +3751,37 @@ p {
 
 ul {
   margin-bottom: 1.6em; }
+
+.container {
+  max-width: 1240px;
+  width: 100%; }
+
+.blockquote {
+  font-family: "Roboto Mono", monospace;
+  border: 2px solid #26262a;
+  padding: 1.6em 2.4em;
+  margin-bottom: 1.6em;
+  background-color: #fff;
+  width: 100%; }
+  .blockquote__cite {
+    display: block;
+    font-size: 0.9em;
+    text-align: right;
+    margin: 0.6em 0; }
+  .blockquote--emphasis {
+    background-color: #f9f7e2; }
+  .blockquote--alert {
+    background-color: #fbe2bc; }
+  .blockquote--success {
+    background-color: #dde5d5; }
+  .blockquote--outdent {
+    margin: 0 0 1.6em -2.4em; }
+    @media (max-width: 992px) {
+      .blockquote--outdent {
+        margin: 0 0 1.6em 0; } }
+  @media (max-width: 992px) {
+    .blockquote {
+      padding: 1.6em; } }
 
 .page-default__header {
   border-left: 2px solid #26262a;
