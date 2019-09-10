@@ -1,10 +1,10 @@
-/* TNA fonts */
+/* Fonts */
 $font__open-sans: 'Open Sans', sans-serif;
 $font__roboto-mono: 'Roboto Mono', monospace;
 $font__body: $font__open-sans;
 $font__heading: $font__roboto-mono;
 
-/* TNA colours */
+/* Colours */
 $color__black: #26262a;
 $color__white: #fff;
 $color__yellow-peach: #fbe2bc;
@@ -21,4 +21,16 @@ $color__success: $color__green;
 $color__error: $color__pink;
 
 $default__border: 2px solid $color__black;
+
+/* Icons */
+$icon__white_envelope: url('../img/icon-wh-envelope.png');
+$icon__white_rss: url('../img/icon-wh-rss.png');
+$icon__white_audio: url('../img/icon-wh-audio.png');
+$icon__white_video: url('../img/icon-wh-video.png');
+$icon__white_info: url('../img/icon-wh-info.png');
+$icon__white_facebook: url('../img/icon-wh-social-facebook.png');
+$icon__white_flickr: url('../img/icon-wh-social-flickr.png');
+$icon__white_twitter: url('../img/icon-wh-social-twitter.png');
+$icon__white_instagram: url('../img/icon-wh-social-instagram.png');
+$icon__white_youtube: url('../img/icon-wh-social-youtube.png');
 

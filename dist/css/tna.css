@@ -3719,8 +3719,9 @@ template {
 /*!
  * TNA Frontend
  */
-/* TNA fonts */
-/* TNA colours */
+/* Fonts */
+/* Colours */
+/* Icons */
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -3982,6 +3983,47 @@ ul {
 .form__optional {
   font-size: 0.9em;
   color: #555; }
+
+.icon {
+  display: inline-block;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat; }
+  .icon__circle {
+    background-size: 68% 68%;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out; }
+  .icon--black {
+    background-color: #26262a; }
+    .icon--black:hover {
+      background-color: #555; }
+  .icon--sm {
+    width: 26px;
+    height: 26px; }
+  .icon--white-facebook {
+    background-image: url("../img/icon-wh-social-facebook.png"); }
+  .icon--white-twitter {
+    background-image: url("../img/icon-wh-social-twitter.png"); }
+  .icon--white-instgram {
+    background-image: url("../img/icon-wh-social-instagram.png"); }
+  .icon--white-youtube {
+    background-image: url("../img/icon-wh-social-youtube.png"); }
+  .icon--white-flickr {
+    background-image: url("../img/icon-wh-social-flickr.png"); }
+  .icon--white-rss {
+    background-image: url("../img/icon-wh-rss.png"); }
+  .icon--white-envelope {
+    background-image: url("../img/icon-wh-envelope.png"); }
+  .icon--white-audio {
+    background-image: url("../img/icon-wh-audio.png"); }
+  .icon--white-video {
+    background-image: url("../img/icon-wh-video.png"); }
+  .icon--white-info {
+    background-image: url("../img/icon-wh-info.png"); }
 
 .page-default__header {
   border-left: 2px solid #26262a;
