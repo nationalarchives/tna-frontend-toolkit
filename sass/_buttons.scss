@@ -1,40 +1,54 @@
-
 .button {
-  background-color: $tna_teal;
-  color: #fff;
+  font-family: $font__heading;
+  background-color: $color__black;
+  color: $color__white;
+  border: $default__border;
   padding: 0.5em 0.9em;
   display: inline-block;
   min-width: 24px;
   text-align: center;
-}
+  &:hover {
+    background-color: $color__white;
+    color: $color__black;
+    text-decoration: none;
+  }
+  &:focus {
+    @include focus-default;
+  }
 
-.button:hover {
-  background-color: $tna_yellow;
-  color: #000;
-  text-decoration: underline;
-}
-
-.secondary {
-  background-color: $tna_mid;
-}
-
-.tertiary {
-  background-color: transparent;
-  color: $tna_link_col;
-}
-
-.ghost {
-  background-color: transparent;
-  color: #fff;
-  border: solid 1px #fff;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-
-.ghost:hover {
-  background-color: $tna_teal;
-  color: #fff;
+  &--primary {
+    background-color: $color__white;
+    color: $color__black;
+    &:hover {
+      background-color: $color__black;
+      color: $color__white;
+    }
+  }
+  &--secondary {
+    border-color: $color__grey-light;
+    background-color: $color__grey-light;
+    color: $color__black;
+    &:hover {
+      background-color: $color__black;
+      color: $color__white;
+    }
+  }
+  &--tertiary {
+    border-color: #fff;
+    background-color: #fff;
+    color: $color__black;
+    &:hover {
+      background-color: $color__black;
+      color: $color__white;
+    }
+  }
+  &--invert {
+    border-color: $color__grey-light;
+    background-color: transparent;
+    color: $color__grey-light;
+    &:hover {
+      background-color: $color__black;
+      color: $color__white;
+    }
+  }
 }

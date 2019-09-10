@@ -1,0 +1,5 @@
+@mixin focus-default {
+  outline: 5px solid #007bff;
+  outline-offset: -2;
+  z-index: 999;
+}

@@ -3,67 +3,66 @@
   background-color: transparent;
   background-position: center center;
   background-repeat: no-repeat;
-  margin: 0 .2em .3em 0;
-}
-.icon-circle {
-  display: inline-block;
-  background-color: #008484;
-  background-size: 68% 68%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  width: 46px;
-  height: 46px;
-  margin: 0 .2em .3em 0;
-  cursor: pointer;
-  transition: .4s ease-in-out;
-  -webkit-transition: .4s ease-in-out;
-  -moz-transition: .4s ease-in-out;
-}
-.icon-circle:hover {
-  background-color: #555;
-}
-.icon-size-26 {
-  background-size: 78% 78%;
-  width: 26px;
-  height: 26px;
-}
-.icon-facebook {
-  background-image: $tna_icon_facebook;
-}
-.icon-twitter {
-  background-image: $tna_icon_twitter;
-}
-.icon-youtube {
-  background-image: $tna_icon_youtube;
-}
-.icon-flickr {
-  background-image: $tna_icon_flickr;
-}
-.icon-rss {
-  background-image: $tna_icon_rss;
-}
-.icon-envelope {
-  background-image: $tna_icon_envelope;
-}
-.icon-audio {
-  background-image: $tna_icon_audio;
-}
-.icon-video {
-  background-image: $tna_icon_video;
-}
-.icon-logo-gov-uk {
-  background-image: $tna_logo_gov_uk;
-  width: 64px;
-  height: 64px;
-}
-.icon-logo-ogl {
-  background-image: $tna_logo_ogl;
-  width: 80px;
-  height: 33px;
-}
-.icon-logo-tna {
-  background-image: $tna_logo_tna;
-  width: 288px;
-  height: 48px;
+
+  &__circle {
+    background-size: 68% 68%;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+  }
+
+  &--black {
+    background-color: $color__black;
+    &:hover {
+      background-color: $color__grey-mid-dark;
+    }
+  }
+
+  &--sm {
+    width: 26px;
+    height: 26px;
+  }
+
+  &--white-facebook {
+    background-image: $icon__white_facebook;
+  }
+
+  &--white-twitter {
+    background-image: $icon__white_twitter;
+  }
+
+  &--white-instgram {
+    background-image: $icon__white_instagram;
+  }
+
+  &--white-youtube {
+    background-image: $icon__white_youtube;
+  }
+
+  &--white-flickr {
+    background-image: $icon__white_flickr;
+  }
+
+  &--white-rss {
+    background-image: $icon__white_rss;
+  }
+
+  &--white-envelope {
+    background-image: $icon__white_envelope;
+  }
+
+  &--white-audio {
+    background-image: $icon__white_audio;
+  }
+
+  &--white-video {
+    background-image: $icon__white_video;
+  }
+
+  &--white-info {
+    background-image: $icon__white_info;
+  }
 }

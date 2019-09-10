@@ -1,37 +1,36 @@
-/* TNA fonts */
-$tna_body_font: 'Open Sans', arial, sans-serif;
-$tna_heading_font: 'Bitter', 'Open Sans', arial, serif;
-$tna_quote_font: 'MS Serif', 'New York', serif;
+/* Fonts */
+$font__open-sans: 'Open Sans', sans-serif;
+$font__roboto-mono: 'Roboto Mono', monospace;
+$font__body: $font__open-sans;
+$font__heading: $font__roboto-mono;
 
-/* TNA colours */
-$tna_red: #cb0d07;
-$tna_teal: #008484;
-$tna_blue: #405480;
-$tna_yellow: #fce45c;
-$tna_yellow_dark: #ebab00;
-$tna_light: #eee;
-$tna_mid: #666;
-$tna_dark: #222;
-$tna_link_col: #2A5DB0;
-$tna_white: #fff;
-$tna_well: #f3f3f3;
+/* Colours */
+$color__black: #26262a;
+$color__white: #fff;
+$color__yellow-peach: #fbe2bc;
+$color__yellow-light: #f9f7e2;
+$color__green: #dde5d5;
+$color__pink: #fad3d4;
 
-/* TNA Icons/Images */
-$tna_icon_24_link:url('../img/icon-24-heading-link.png');
-$tna_dot_grey:url('../img/dot-grey.png');
-$tna_heading_flourish:url('../img/heading-flourish.png') no-repeat bottom left;
-$tna_icon_envelope:url('../img/icon-envelope.png');
-$tna_icon_rss:url('../img/icon-rss.png');
-$tna_icon_facebook:url('../img/icon-social-facebook.png');
-$tna_icon_flickr:url('../img/icon-social-flickr.png');
-$tna_icon_twitter:url('../img/icon-social-twitter.png');
-$tna_icon_youtube:url('../img/icon-social-youtube-play.png');
-$tna_icon_calendar:url(../img/icon-calendar.svg);
-$tna_icon_audio:url('../img/icon-audio.png');
-$tna_icon_video:url('../img/icon-video.png');
-$tna_logo_gov_uk:url('../img/logo-gov-uk.png');
-$tna_logo_ogl:url('../img/logo-ogl.png');
-$tna_logo_tna:url('../img/logo-tna-white.png');
-$tna_footer_bg:url('../img/footer-background.png');
-$tna_list_bullet:url('../img/list-bullet.png');
-$tna_list_link_bullet:url('../img/list-link-bullet.png');
+$color__grey-light: #eee;
+$color__grey-mid-light: #ddd;
+$color__grey-mid-dark: #555;
+
+$color__alert: $color__yellow-peach;
+$color__success: $color__green;
+$color__error: $color__pink;
+
+$default__border: 2px solid $color__black;
+
+/* Icons */
+$icon__white_envelope: url('../img/icon-wh-envelope.png');
+$icon__white_rss: url('../img/icon-wh-rss.png');
+$icon__white_audio: url('../img/icon-wh-audio.png');
+$icon__white_video: url('../img/icon-wh-video.png');
+$icon__white_info: url('../img/icon-wh-info.png');
+$icon__white_facebook: url('../img/icon-wh-social-facebook.png');
+$icon__white_flickr: url('../img/icon-wh-social-flickr.png');
+$icon__white_twitter: url('../img/icon-wh-social-twitter.png');
+$icon__white_instagram: url('../img/icon-wh-social-instagram.png');
+$icon__white_youtube: url('../img/icon-wh-social-youtube.png');
+
