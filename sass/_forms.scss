@@ -1,0 +1,155 @@
+.form {
+
+  fieldset {
+    margin-bottom: 0.6em;
+  }
+
+  legend {
+    font-family: $font__roboto-mono;
+    font-size: 1.6em;
+    margin: 0 0 0.6em 0;
+    width: auto;
+  }
+
+  &__row {
+    max-width: 100%;
+    margin-bottom: 1.6em;
+
+    &:before, &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+
+    label {
+      width: 100%;
+      font-family: $font__roboto-mono;
+      font-weight: normal;
+    }
+
+    input[type=color],
+    input[type=email],
+    input[type=number],
+    input[type=tel],
+    input[type=text],
+    input[type=date],
+    input[type=url],
+    select,
+    textarea {
+      width: 100%;
+      max-width: 480px;
+      min-width: 220px;
+      border: $default__border;
+      padding: 8px;
+      text-indent: 5px;
+      &:disabled {
+        background: #eee;
+      }
+      &:read-only {
+        background: #eee;
+      }
+      &:focus {
+        @include focus-default;
+      }
+    }
+
+    select {
+      height: 2.4em;
+      -webkit-border-radius: 0;
+      border: 0;
+      outline: $default__border;
+      outline-offset: -1px;
+    }
+  }
+
+  &__checkbox {
+    input[type="checkbox"] {
+      position: absolute;
+      opacity: 0;
+    }
+    label {
+      position: relative;
+      display: inline-block;
+      padding-left: 32px;
+    }
+    label::before,
+    label::after {
+      position: absolute;
+      content: "";
+      display: inline-block;
+    }
+    label::before{
+      height: 24px;
+      width: 24px;
+      border: $default__border;
+      left: 0;
+      top: 2px;
+    }
+    label::after {
+      height: 7px;
+      width: 13px;
+      border-left: $default__border;
+      border-bottom: $default__border;
+      transform: rotate(-45deg);
+      left: 6px;
+      top: 9px;
+    }
+    input[type="checkbox"] + label::after {
+      content: none;
+    }
+    input[type="checkbox"]:checked + label::after {
+      content: "";
+    }
+    input[type="checkbox"]:focus + label::before {
+      @include focus-default;
+    }
+  }
+
+  &__radio {
+    input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+    }
+    label {
+      position: relative;
+      display: inline-block;
+      padding-left: 32px;
+    }
+    label::before,
+    label::after {
+      position: absolute;
+      content: "";
+      display: inline-block;
+    }
+    label::before{
+      height: 24px;
+      width: 24px;
+      border: $default__border;
+      border-radius: 50%;
+      left: 0;
+      top: 2px;
+    }
+    label::after {
+      height: 12px;
+      width: 12px;
+      background-color: $dark;
+      border-radius: 50%;
+      left: 6px;
+      top: 8px;
+    }
+    input[type="radio"] + label::after {
+      content: none;
+    }
+    input[type="radio"]:checked + label::after {
+      content: "";
+    }
+    input[type="radio"]:focus + label::before {
+      @include focus-default;
+    }
+  }
+
+  &__optional {
+    font-size: 0.9em;
+    color: $color__grey-mid-dark;
+  }
+}

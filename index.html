@@ -115,6 +115,7 @@
 											<p>Lorem ipsum dolor sit amet, suas graeci ius no. Solet postea duo et, esse fastidii inimicus in eam. Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus.</p>
 											<p>Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus. Lorem ipsum dolor sit amet, suas graeci ius no. Solet postea duo et, esse fastidii inimicus in eam.</p>
 											<p>Solet postea duo et, esse fastidii inimicus in eam. Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus.</p>
+											<p>Velit labore habemus in duo, ne hinc platonem instructior pri. Ea his omnes laboramus. Velit labore habemus in duo, ne hinc platonem instructior pri. Solet postea duo et, esse fastidii inimicus in eam.</p>
 										</div>
 									</article>
 								</main>
@@ -535,18 +536,18 @@
 					<h3>Basic form</h3>
 					<h5>Examples</h5>
 					<div class="examples">
-						<form>
+						<form class="form">
 							<fieldset>
 								<legend>Your enquiry</legend>
-								<div class="form-row">
-									<label for="full_name">Full name <span class="optional">(optional)</span></label>
+								<div class="form__row">
+									<label for="full_name">Full name <span class="form__optional">(optional)</span></label>
 									<input type="text" id="full_name" name="full_name">
 								</div>
-								<div class="form-row">
+								<div class="form__row">
 									<label for="email">Email address</label>
 									<input type="email" id="email" name="email" aria-required="true" required>
 								</div>
-								<div class="form-row">
+								<div class="form__row">
 									<label for="type">Type of enquiry</label>
 									<select id="type" name="type">
 										<option value="">Please select</option>
@@ -555,15 +556,15 @@
 										<option value="Concern">Concern</option>
 									</select>
 								</div>
-								<div class="form-row">
+								<div class="form__row">
 									<label for="form_enquiry">Your enquiry</label>
 									<textarea id="form_enquiry" name="enquiry" aria-required="true" required></textarea>
 								</div>
-								<div class="form-row checkbox">
+								<div class="form__row form__checkbox">
 									<input type="checkbox" id="news_yes" name="newsletter" value="yes">
 									<label for="news_yes">Tick here to receive our free monthly newsletter</label>
 								</div>
-								<div class="form-row">
+								<div class="form__row">
 									<input type="submit" name="submit" id="form_submit" value="Submit" class="button">
 								</div>
 							</fieldset>
@@ -700,10 +701,10 @@
 		</div>
 	</div>
 </main>
-<footer id="#footer">
+<footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 text-center">
+			<div class="col-md-12">
 				<h4>Frontend toolkit - The National Archives</h4>
 				<p><a href="https://github.com/nationalarchives/tna-frontend-toolkit" target="_blank">Get it on Github</a></p>
 			</div>
@@ -714,11 +715,10 @@
 					<div class="icon icon-logo-ogl"></div>
 				</a>
 				<p>All content is available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">
-					Open Government Licence v3.0</a>,
-					<br>except where otherwise stated
+					Open Government Licence v3.0</a>, except where otherwise stated
 				</p>
 			</div>
-			<div class="col-xs-12 col-sm-3 text-right">
+			<div class="col-xs-12 col-sm-3">
 				<a title="External website - opens in a new window" href="http://gov.uk/" target="_blank" rel="noopener noreferrer">
 					<div class="icon icon-logo-gov-uk"></div>
 				</a>

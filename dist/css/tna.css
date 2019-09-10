@@ -3840,6 +3840,149 @@ ul {
     .blockquote {
       padding: 1.6em; } }
 
+.form fieldset {
+  margin-bottom: 0.6em; }
+.form legend {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.6em;
+  margin: 0 0 0.6em 0;
+  width: auto; }
+.form__row {
+  max-width: 100%;
+  margin-bottom: 1.6em; }
+  .form__row:before, .form__row:after {
+    display: table;
+    content: " ";
+    clear: both; }
+  .form__row label {
+    width: 100%;
+    font-family: "Roboto Mono", monospace;
+    font-weight: normal; }
+  .form__row input[type=color],
+  .form__row input[type=email],
+  .form__row input[type=number],
+  .form__row input[type=tel],
+  .form__row input[type=text],
+  .form__row input[type=date],
+  .form__row input[type=url],
+  .form__row select,
+  .form__row textarea {
+    width: 100%;
+    max-width: 480px;
+    min-width: 220px;
+    border: 2px solid #26262a;
+    padding: 8px;
+    text-indent: 5px; }
+    .form__row input[type=color]:disabled,
+    .form__row input[type=email]:disabled,
+    .form__row input[type=number]:disabled,
+    .form__row input[type=tel]:disabled,
+    .form__row input[type=text]:disabled,
+    .form__row input[type=date]:disabled,
+    .form__row input[type=url]:disabled,
+    .form__row select:disabled,
+    .form__row textarea:disabled {
+      background: #eee; }
+    .form__row input[type=color]:read-only,
+    .form__row input[type=email]:read-only,
+    .form__row input[type=number]:read-only,
+    .form__row input[type=tel]:read-only,
+    .form__row input[type=text]:read-only,
+    .form__row input[type=date]:read-only,
+    .form__row input[type=url]:read-only,
+    .form__row select:read-only,
+    .form__row textarea:read-only {
+      background: #eee; }
+    .form__row input[type=color]:focus,
+    .form__row input[type=email]:focus,
+    .form__row input[type=number]:focus,
+    .form__row input[type=tel]:focus,
+    .form__row input[type=text]:focus,
+    .form__row input[type=date]:focus,
+    .form__row input[type=url]:focus,
+    .form__row select:focus,
+    .form__row textarea:focus {
+      outline: 5px solid #007bff;
+      outline-offset: -2;
+      z-index: 999; }
+  .form__row select {
+    height: 2.4em;
+    -webkit-border-radius: 0;
+    border: 0;
+    outline: 2px solid #26262a;
+    outline-offset: -1px; }
+.form__checkbox input[type="checkbox"] {
+  position: absolute;
+  opacity: 0; }
+.form__checkbox label {
+  position: relative;
+  display: inline-block;
+  padding-left: 32px; }
+.form__checkbox label::before,
+.form__checkbox label::after {
+  position: absolute;
+  content: "";
+  display: inline-block; }
+.form__checkbox label::before {
+  height: 24px;
+  width: 24px;
+  border: 2px solid #26262a;
+  left: 0;
+  top: 2px; }
+.form__checkbox label::after {
+  height: 7px;
+  width: 13px;
+  border-left: 2px solid #26262a;
+  border-bottom: 2px solid #26262a;
+  transform: rotate(-45deg);
+  left: 6px;
+  top: 9px; }
+.form__checkbox input[type="checkbox"] + label::after {
+  content: none; }
+.form__checkbox input[type="checkbox"]:checked + label::after {
+  content: ""; }
+.form__checkbox input[type="checkbox"]:focus + label::before {
+  outline: 5px solid #007bff;
+  outline-offset: -2;
+  z-index: 999; }
+.form__radio input[type="radio"] {
+  position: absolute;
+  opacity: 0; }
+.form__radio label {
+  position: relative;
+  display: inline-block;
+  padding-left: 32px; }
+.form__radio label::before,
+.form__radio label::after {
+  position: absolute;
+  content: "";
+  display: inline-block; }
+.form__radio label::before {
+  height: 24px;
+  width: 24px;
+  border: 2px solid #26262a;
+  border-radius: 50%;
+  left: 0;
+  top: 2px; }
+.form__radio label::after {
+  height: 12px;
+  width: 12px;
+  background-color: #343a40;
+  border-radius: 50%;
+  left: 6px;
+  top: 8px; }
+.form__radio input[type="radio"] + label::after {
+  content: none; }
+.form__radio input[type="radio"]:checked + label::after {
+  content: ""; }
+.form__radio input[type="radio"]:focus + label::before {
+  outline: 5px solid #007bff;
+  outline-offset: -2;
+  z-index: 999; }
+.form__optional {
+  font-size: 0.9em;
+  color: #555; }
+
 .page-default__header {
   border-left: 2px solid #26262a;
   border-right: 2px solid #26262a;
@@ -3915,7 +4058,9 @@ ul {
     color: #26262a;
     text-decoration: none; }
   .button:focus {
-    outline: 0; }
+    outline: 5px solid #007bff;
+    outline-offset: -2;
+    z-index: 999; }
   .button--primary {
     background-color: #fff;
     color: #26262a; }

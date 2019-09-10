@@ -13,7 +13,7 @@
     text-decoration: none;
   }
   &:focus {
-    outline: 0;
+    @include focus-default;
   }
 
   &--primary {
