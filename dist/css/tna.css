@@ -3997,9 +3997,9 @@ ul {
     transition: .3s ease-in-out;
     -webkit-transition: .3s ease-in-out;
     -moz-transition: .3s ease-in-out; }
-  .icon--black {
+  .icon--bg-black {
     background-color: #26262a; }
-    .icon--black:hover {
+    .icon--bg-black:hover {
       background-color: #555; }
   .icon--sm {
     width: 26px;
