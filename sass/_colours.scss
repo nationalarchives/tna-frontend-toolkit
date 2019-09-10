@@ -1,0 +1,27 @@
+.color {
+  color: $color__black;
+
+  &--yellow-peach {
+    background-color: $color__yellow-peach;
+  }
+
+  &--yellow-light {
+    background-color: $color__yellow-light;
+  }
+
+  &--green {
+    background-color: $color__green;
+  }
+
+  &--pink {
+    background-color: $color__pink;
+  }
+
+  &--grey-light {
+    background-color: $color__grey-light;
+  }
+
+  &--grey-mid-light {
+    background-color: $color__grey-mid-light;
+  }
+}

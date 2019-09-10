@@ -3758,6 +3758,21 @@ ul {
   max-width: 1240px;
   width: 100%; }
 
+.color {
+  color: #26262a; }
+  .color--yellow-peach {
+    background-color: #fbe2bc; }
+  .color--yellow-light {
+    background-color: #f9f7e2; }
+  .color--green {
+    background-color: #dde5d5; }
+  .color--pink {
+    background-color: #fad3d4; }
+  .color--grey-light {
+    background-color: #eee; }
+  .color--grey-mid-light {
+    background-color: #ddd; }
+
 .ul--no-bullet {
   list-style-type: none;
   padding: 0; }
