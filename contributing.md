@@ -1,6 +1,6 @@
 # Contributions
 
-## Philosophy 
+## 1.0 Philosophy 
 
 The National Archives’ Digital Services frontend design and development mission is to:
 
@@ -8,34 +8,34 @@ The National Archives’ Digital Services frontend design and development missio
 * achieving a good balance between **innovation** and **effective use** of our capability;
 * and therefore, giving our millions of users an **engaging**, **useful** and **satisfying** experience while using our services.
 
-## Principles
+## 2.0 Principles
 
-### User-centred approach
+### 2.1 User-centred approach
 
 An evidence base approach focusing on the users and their needs at each phase of the design and development life-cycle.
 
-### Inclusivity
+### 2.2 Inclusivity
 
 Technology, infrastructure and systems must be accessible for all users. Accessible design principles; perceivable, operable, understandable and robust.
 
-### Progressive enhancement
+### 2.3 Progressive enhancement
 
 Progressive enhancement provides core content, functionality and compatibility across all browsers and devices to ensure stability.
 
-### A component/modular approach
+### 2.4 A component/modular approach
 
 Ensuring digital assets are reusable, maintainable and scalable.
 
-## Guidelines
+## 3.0 Guidelines
 
-## Process
+## 4.0 Process
 
-### Versioning
+### 4.1 Versioning
 
-## Contribution criteria
+## 5.0 Contribution criteria
 
-## Guidelines
+## 6.0 Guidelines
 
-### Guideline checklist 
+### 6.1 Guideline checklist 
 
-### Commit messages 
+### 6.2 Commit messages 
