@@ -36,7 +36,12 @@ Ensuring digital assets are reusable, maintainable and scalable.
 
 ## 6.0 Guidelines
 
+We welcome contributions to The National Archives front end toolkit. To do so we ask contributors to follow a simple two-step process: 
+
 ### 6.1 Guideline checklist 
+
+1. Raise an issue describing the component you wish to contribute. A [template](https://github.com/nationalarchives/tna-frontend-toolkit/issues/new?assignees=gtvj&labels=enhancement&template=new-component-for-the-national-archives-front-end-toolkit.md&title=) is provided for this purpose
+2. Submit a pull request containing code for the new component.
 
 ### 6.2 Commit messages 
 
