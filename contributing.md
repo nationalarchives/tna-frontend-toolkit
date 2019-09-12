@@ -39,3 +39,13 @@ Ensuring digital assets are reusable, maintainable and scalable.
 ### 6.1 Guideline checklist 
 
 ### 6.2 Commit messages 
+
+We ask that developers contributing to this repository take a considered approach to  their commit messages. We believe a considered commit message is the best way to communicate context about a change and is therefore a vital aspect of good collaboration. A particularly useful resource for understanding this is provided in [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) which outlines the [seven rules](https://chris.beams.io/posts/git-commit/#seven-rules) of a great Git commit message as: 
+
+* Separate subject from body with a blank line
+* Limit the subject line to 50 characters
+* Capitalize the subject line
+* Do not end the subject line with a period
+* Use the imperative mood in the subject line
+* Wrap the body at 72 characters
+* Use the body to explain _what_ and _why_ vs. how
