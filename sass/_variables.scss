@@ -5,6 +5,9 @@ $font__body: $font__open-sans;
 $font__heading: $font__roboto-mono;
 
 /* Colours */
+$color__text: #26262a;
+$color__text-secondary: #6f777b;
+
 $color__black: #26262a;
 $color__white: #fff;
 $color__yellow-peach: #fbe2bc;
@@ -19,6 +22,11 @@ $color__grey-mid-dark: #555;
 $color__alert: $color__yellow-peach;
 $color__success: $color__green;
 $color__error: $color__pink;
+
+$color__link-blue: #1d70b8;
+$color__link-blue-hover: #003078;
+$color__link-blue-visited: #4c2c92;
+$color__link-blue-active: #1e1e2a;
 
 $default__border: 2px solid $color__black;
 
