@@ -3762,7 +3762,7 @@ a {
     color: #1e1e2a; }
   a:focus {
     outline: 5px solid #1d70b8;
-    outline-offset: -2;
+    outline-offset: 1px;
     z-index: 999; }
 
 ul {
@@ -3921,7 +3921,7 @@ ul {
     .form__row select:focus,
     .form__row textarea:focus {
       outline: 5px solid #1d70b8;
-      outline-offset: -2;
+      outline-offset: 1px;
       z-index: 999; }
   .form__row select {
     height: 2.4em;
@@ -3961,7 +3961,7 @@ ul {
   content: ""; }
 .form__checkbox input[type="checkbox"]:focus + label::before {
   outline: 5px solid #1d70b8;
-  outline-offset: -2;
+  outline-offset: 1px;
   z-index: 999; }
 .form__radio input[type="radio"] {
   position: absolute;
@@ -3995,7 +3995,7 @@ ul {
   content: ""; }
 .form__radio input[type="radio"]:focus + label::before {
   outline: 5px solid #1d70b8;
-  outline-offset: -2;
+  outline-offset: 1px;
   z-index: 999; }
 .form__optional {
   font-size: 0.9em;
@@ -4111,38 +4111,60 @@ ul {
   display: inline-block;
   min-width: 24px;
   text-align: center; }
+  .button:visited, .button:active {
+    background-color: #26262a;
+    color: #fff; }
   .button:hover {
     background-color: #fff;
     color: #26262a;
     text-decoration: none; }
   .button:focus {
     outline: 5px solid #1d70b8;
-    outline-offset: -2;
+    outline-offset: 1px;
     z-index: 999; }
   .button--primary {
     background-color: #fff;
     color: #26262a; }
+    .button--primary:visited, .button--primary:active {
+      background-color: #fff;
+      color: #26262a; }
     .button--primary:hover {
       background-color: #26262a;
-      color: #fff; }
+      color: #fff;
+      text-decoration: none; }
   .button--secondary {
     border-color: #eee;
     background-color: #eee;
     color: #26262a; }
+    .button--secondary:visited, .button--secondary:active {
+      background-color: #eee;
+      color: #26262a; }
     .button--secondary:hover {
+      border-color: #26262a;
       background-color: #26262a;
-      color: #fff; }
+      color: #fff;
+      text-decoration: none; }
   .button--tertiary {
     border-color: #fff;
     background-color: #fff;
     color: #26262a; }
+    .button--tertiary:visited, .button--tertiary:active {
+      background-color: #fff;
+      color: #26262a; }
     .button--tertiary:hover {
+      border-color: #26262a;
       background-color: #26262a;
-      color: #fff; }
+      color: #fff;
+      text-decoration: none; }
   .button--invert {
     border-color: #eee;
     background-color: transparent;
     color: #eee; }
+    .button--invert:visited, .button--invert:active {
+      background-color: transparent;
+      color: #eee; }
     .button--invert:hover {
+      border-color: #26262a;
       background-color: #26262a;
-      color: #fff; }
+      color: #fff;
+      text-decoration: none; }
