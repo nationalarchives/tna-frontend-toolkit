@@ -1,5 +1,5 @@
 @mixin focus-default {
-  outline: 5px solid $color__link-blue;
+  outline: 5px solid $color__focus-blue-outline;
   outline-offset: -2;
   z-index: 999;
 }
