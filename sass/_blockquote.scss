@@ -5,6 +5,9 @@
   margin-bottom: 1.6em;
   background-color: $color__white;
   width: 100%;
+  p {
+    margin-bottom: 0;
+  }
 
   &__cite {
     display: block;
