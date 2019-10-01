@@ -35,6 +35,7 @@
     &:hover {
       background-color: $color__black;
       color: $color__white;
+      text-decoration: none;
     }
   }
 
@@ -49,14 +50,16 @@
     }
 
     &:hover {
+      border-color: $color__black;
       background-color: $color__black;
       color: $color__white;
+      text-decoration: none;
     }
   }
 
   &--tertiary {
-    border-color: #fff;
-    background-color: #fff;
+    border-color: $color__white;
+    background-color: $color__white;
     color: $color__black;
 
     &:visited, &:active {
@@ -65,8 +68,10 @@
     }
 
     &:hover {
+      border-color: $color__black;
       background-color: $color__black;
       color: $color__white;
+      text-decoration: none;
     }
   }
 
@@ -81,8 +86,10 @@
     }
 
     &:hover {
+      border-color: $color__black;
       background-color: $color__black;
       color: $color__white;
+      text-decoration: none;
     }
   }
 }
