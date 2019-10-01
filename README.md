@@ -43,7 +43,7 @@ There are several Grunt tasks available to developers. View the Gruntfile.js for
 
 ### Sass
 
-[Sass](https://sass-lang.com/) (Syntactically Awesome Style Sheets) a is preprocessor style sheet language.
+[Sass](https://sass-lang.com/) (Syntactically Awesome Style Sheets) is a preprocessor style sheet language.
 
 ### Grunt
 
