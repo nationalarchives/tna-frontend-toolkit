@@ -94,13 +94,13 @@ All class names start with a `.tna-` namespace to reduce the likelihood of confl
 #### 5.4.1 Don't mix BEM and Bootstrap classes on the same element
 
 Bad:
-```
+```html
 <div class="col-sm-8 block__element">
 </div>
 ```
 
 Good:
-```
+```html
 <div class="col-sm-8">
   <div class="block__element">
   </div>
@@ -110,12 +110,12 @@ Good:
 #### 5.4.2 Write each property on its own line
 
 Bad:
-```
+```scss
 .block {border: 0; padding: 0;}
 ```
 
 Good:
-```
+```scss
 .block {
   border: 0;
   padding: 0;
@@ -125,14 +125,14 @@ Good:
 #### 5.4.3 Use variables for colours
 
 Bad:
-```
+```scss
 .block {
   color: #005ea5;
 }
 ```
 
 Good:
-```
+```scss
 .block {
   color: $blue;
 }
@@ -141,14 +141,14 @@ Good:
 #### 5.4.4 Avoid using ID selectors
 
 Bad:
-```
+```scss
 #block {
   ...
 }
 ```
 
 Good:
-```
+```scss
 .block {
   ...
 }
@@ -157,7 +157,7 @@ Good:
 #### 5.4.5 Separate rule, function, and mixin declarations with empty lines
 
 Bad:
-```
+```scss
 p {
   margin: 0;
   em {
@@ -170,7 +170,7 @@ a {
 ```
 
 Good:
-```
+```scss
 p {
   margin: 0;
 
@@ -187,7 +187,7 @@ a {
 #### 5.4.6 Use no more than 3 levels of nesting
 
 Bad:
-```
+```scss
 .block {
   ...
   
@@ -206,7 +206,7 @@ Bad:
 ```
 
 Good:
-```
+```scss
 .block {
   ...
 }
@@ -227,14 +227,14 @@ Good:
 #### 5.4.7 Properties should be formatted with a single space separating the colon from the property's value
 
 Bad:
-```
+```scss
 .block {
   margin:0;
 }
 ```
 
 Good:
-```
+```scss
 .block {
   margin: 0;
 }
@@ -243,14 +243,14 @@ Good:
 #### 5.4.8 Omit length units on zero values
 
 Bad:
-```
+```scss
 .block {
   margin: 0px;
 }
 ```
 
 Good:
-```
+```scss
 .block {
   margin: 0;
 }
