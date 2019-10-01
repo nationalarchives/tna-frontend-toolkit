@@ -36,7 +36,7 @@ We welcome contributions to The National Archives front end toolkit. To do so we
 
 1. Follow the [development setup](https://github.com/nationalarchives/tna-frontend-toolkit/blob/feature/contributions/README.md#20-development-setup).
 2. Raise an issue as described in the [guideline checklist](#31-guideline-checklist).
-3. Create a feature branch for your new code. Follow our [commit message guidelines](#32-commit-messages) and design system rules.
+3. Create a feature branch for your new code. Follow our [commit message guidelines](#32-commit-messages) and [CSS/Sass rules](#50-css-style-guide).
 4. Submit a pull request with the required documentation as described in the [guideline checklist](#31-guideline-checklist).
 
 ### 3.1 Guideline checklist
@@ -86,7 +86,7 @@ TNA frontend toolkit uses [Bootstrap 4.3.1](https://getbootstrap.com/) grid syst
 
 ### 5.3 CSS and Sass rules
 
-#### Don't mix BEM and Bootstrap classes on the same element
+#### 5.3.1 Don't mix BEM and Bootstrap classes on the same element
 
 Bad:
 ```
@@ -102,7 +102,7 @@ Good:
 </div>
 ```
 
-#### Write each property on its own line
+#### 5.3.2 Write each property on its own line
 
 Bad:
 ```
@@ -117,7 +117,7 @@ Good:
 }
 ```
 
-#### Use variables for colours
+#### 5.3.3 Use variables for colours
 
 Bad:
 ```
@@ -133,7 +133,7 @@ Good:
 }
 ```
 
-#### Avoid using ID selectors
+#### 5.3.4 Avoid using ID selectors
 
 Bad:
 ```
@@ -149,7 +149,7 @@ Good:
 }
 ```
 
-#### Separate rule, function, and mixin declarations with empty lines
+#### 5.3.5 Separate rule, function, and mixin declarations with empty lines
 
 Bad:
 ```
@@ -179,7 +179,7 @@ a {
 }
 ```
 
-#### Use no more than 3 levels of nesting
+#### 5.3.6 Use no more than 3 levels of nesting
 
 Bad:
 ```
@@ -219,7 +219,7 @@ Good:
 }
 ```
 
-#### Properties should be formatted with a single space separating the colon from the property's value
+#### 5.3.7 Properties should be formatted with a single space separating the colon from the property's value
 
 Bad:
 ```
@@ -235,7 +235,7 @@ Good:
 }
 ```
 
-#### Omit length units on zero values
+#### 5.3.8 Omit length units on zero values
 
 Bad:
 ```
@@ -249,18 +249,6 @@ Good:
 .block {
   margin: 0;
 }
-```
-
-#### 
-
-Bad:
-```
-
-```
-
-Good:
-```
-
 ```
 
 ## 6.0 Versioning
