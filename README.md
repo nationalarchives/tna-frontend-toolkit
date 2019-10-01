@@ -49,3 +49,7 @@ There are several Grunt tasks available to developers. View the Gruntfile.js for
 
 [Grunt](http://gruntjs.com/) as a task manager to aid development.
 
+### Block Element Modifier (BEM)
+
+TNA frontend toolkit uses the [Block Element Modifier (BEM)](http://getbem.com/) methodology when naming CSS classes. This is designed to help developers understand how the different classes relate to each other.
+
