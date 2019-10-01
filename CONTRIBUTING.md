@@ -37,7 +37,8 @@ We welcome contributions to The National Archives front end toolkit. To do so we
 1. Follow the [development setup](https://github.com/nationalarchives/tna-frontend-toolkit/blob/feature/contributions/README.md#20-development-setup).
 2. Raise an issue as described in the [guideline checklist](#31-guideline-checklist).
 3. Create a feature branch for your new code. Follow our [commit message guidelines](#32-commit-messages) and [CSS/Sass rules](#50-css-style-guide).
-4. Submit a pull request with the required documentation as described in the [guideline checklist](#31-guideline-checklist).
+4. Test your code as described in [Browser/Device testing](60-browserdevice-testing).
+5. Submit a pull request with the required documentation as described in the [guideline checklist](#31-guideline-checklist).
 
 ### 3.1 Guideline checklist
 
@@ -251,7 +252,29 @@ Good:
 }
 ```
 
-## 6.0 Versioning
+## 6.0 Browser/Device testing
+
+Manually test the code on the following browsers:
+
+| Operating system | Browser | Support|
+|------------------|---------|--------|
+| Windows | Internet Explorer 11 | compliant |
+|  | 	Edge (latest versions) | compliant |
+|  | 	Google Chrome (latest versions) | compliant |
+|  | 	Mozilla Firefox (latest versions) | compliant |
+| macOS | Safari 12 and later | compliant |
+|  | Google Chrome (latest versions) | compliant |
+|  | Mozilla Firefox (latest versions) | compliant |
+| iOS | Safari for iOS 10.3 and later | compliant |
+|  | Google Chrome (latest versions) | compliant |
+| Android | Google Chrome (latest versions) | compliant |
+|  | Samsung Internet (latest versions) | compliant |
+
+**Compliant** - All content is accessible and the site is visually and functionally complete.
+
+For more information please see [GOV.UK Designing for different browsers and devices](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices).
+
+## 7.0 Versioning
 
 Using semantic versioning helps to keep track of releases, bug fixes and manage dependancies.
 Eg version `1.5.3`
