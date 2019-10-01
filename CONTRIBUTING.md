@@ -1,26 +1,26 @@
 # Contributions
 
-## 1.0 Philosophy
+## 1 Philosophy
 
 The National Archives’ Digital Services frontend design and development mission is to:
 
 - deliver **high quality**, **inclusive** and **maintainable** digital services, whilst;
 - achieving a good balance between **innovation** and **effective use** of our capability;
-- and therefore, giving our millions of users an **engaging**, **useful** and **satisfying** experience while using our services.
+- and therefore, providing an **engaging**, **useful** and **satisfying** experience for our millions of users.
 
-## 2.0 Principles
+## 2 Principles
 
 ### 2.1 User-centred approach
 
-An evidence base approach focusing on the users and their needs at each phase of the design and development life-cycle.
+An evidence-based approach focusing on the users and their needs at each phase of the design and development life-cycle.
 
 ### 2.2 Inclusivity
 
-Technology, infrastructure and systems must be accessible for all users conforming to WCAG 2.1 - level Double-A. Accessible design principles; perceivable, operable, understandable and robust.
+Technology, infrastructure and systems must be accessible for all users conforming to WCAG 2.1 level AA.
 
 ### 2.3 Progressive enhancement
 
-Progressive enhancement provides core content, functionality and compatibility without JavaScript or CSS across browsers and devices to ensure stability.
+Progressive enhancement ensures core content and functionality are delivered through HTML alone with no reliance upon CSS or JavaScript.
 
 ### 2.4 A component/modular approach
 
@@ -30,7 +30,7 @@ Ensuring digital assets are reusable, maintainable and scalable.
 
 Users must be able to access the information they need or be able to complete their task without layout or functionality issues.
 
-## 3.0 Guidelines
+## 3 Guidelines
 
 We welcome contributions to The National Archives front end toolkit. To do so we ask contributors to follow a simple step process:
 
@@ -60,9 +60,7 @@ We ask that developers contributing to this repository take a considered approac
 - Wrap the body at 72 characters
 - Use the body to explain _what_ and _why_ vs. how
 
-Click [here](https://semver.org) to find out more, of what would be classed as MAJOR, MINOR and PATCH.
-
-## 4.0 Contribution criteria
+## 4 Contribution criteria
 
 All patterns in The National Archives front end toolkit must be of high quality and meet user needs. To ensure this all contributions must meet the following criteria:
 
@@ -75,7 +73,7 @@ All patterns in The National Archives front end toolkit must be of high quality 
 
 When submitting a Pull Request please provide as much information as possible about how it meets the above criteria. This will help reviewers understand your suggestion.
 
-## 5.0 CSS style guide
+## 5 CSS style guide
 
 ### 5.1 Block Element Modifier (BEM)
 
@@ -256,7 +254,7 @@ Good:
 }
 ```
 
-## 6.0 Browser/Device testing
+## 6 Browser/Device testing
 
 Manually test the code on the following browsers:
 
@@ -278,7 +276,9 @@ Manually test the code on the following browsers:
 
 For more information please see [GOV.UK Designing for different browsers and devices](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices).
 
-## 7.0 Versioning
+## 7 Versioning
+
+Click [here](https://semver.org) to find out more, of what would be classed as MAJOR, MINOR and PATCH.
 
 Using semantic versioning helps to keep track of releases, bug fixes and manage dependancies.
 Eg version `1.5.3`
