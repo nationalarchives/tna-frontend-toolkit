@@ -37,7 +37,7 @@ We welcome contributions to The National Archives front end toolkit. To do so we
 1. Follow the [development setup](https://github.com/nationalarchives/tna-frontend-toolkit/blob/feature/contributions/README.md#20-development-setup).
 2. Raise an issue as described in the [guideline checklist](#31-guideline-checklist).
 3. Create a feature branch for your new code. Follow our [commit message guidelines](#32-commit-messages) and [CSS/Sass rules](#50-css-style-guide).
-4. Test your code as described in [browser/device testing](60-browserdevice-testing).
+4. Test your code as described in [browser/device testing](#60-browserdevice-testing).
 5. Submit a pull request with the required documentation as described in the [guideline checklist](#31-guideline-checklist).
 
 ### 3.1 Guideline checklist
