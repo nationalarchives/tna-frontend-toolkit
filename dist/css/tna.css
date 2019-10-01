@@ -3821,6 +3821,8 @@ ul {
   margin-bottom: 1.6em;
   background-color: #fff;
   width: 100%; }
+  .tna-blockquote p {
+    margin-bottom: 0; }
   .tna-blockquote__cite {
     display: block;
     font-size: 0.9em;
@@ -3904,7 +3906,7 @@ ul {
     .tna-form__row select:focus,
     .tna-form__row textarea:focus {
       outline: 5px solid #007bff;
-      outline-offset: -2;
+      outline-offset: 1px;
       z-index: 999; }
   .tna-form__row select {
     height: 2.4em;
@@ -3944,7 +3946,7 @@ ul {
   content: ""; }
 .tna-form__checkbox input[type="checkbox"]:focus + label::before {
   outline: 5px solid #007bff;
-  outline-offset: -2;
+  outline-offset: 1px;
   z-index: 999; }
 .tna-form__radio input[type="radio"] {
   position: absolute;
@@ -3978,7 +3980,7 @@ ul {
   content: ""; }
 .tna-form__radio input[type="radio"]:focus + label::before {
   outline: 5px solid #007bff;
-  outline-offset: -2;
+  outline-offset: 1px;
   z-index: 999; }
 .tna-form__optional {
   font-size: 0.9em;
@@ -4081,8 +4083,7 @@ ul {
   .tna-card__content h3 {
     border-top: 2px solid #26262a;
     padding-top: 10px;
-    margin-top: 0;
-    margin-bottom: 26px; }
+    margin-top: 0; }
   .tna-card__content p {
     color: #26262a; }
 
@@ -4095,17 +4096,23 @@ ul {
   display: inline-block;
   min-width: 24px;
   text-align: center; }
+  .tna-button:visited, .tna-button:active {
+    background-color: #26262a;
+    color: #fff; }
   .tna-button:hover {
     background-color: #fff;
     color: #26262a;
     text-decoration: none; }
   .tna-button:focus {
     outline: 5px solid #007bff;
-    outline-offset: -2;
+    outline-offset: 1px;
     z-index: 999; }
   .tna-button--primary {
     background-color: #fff;
     color: #26262a; }
+    .tna-button--primary:visited, .tna-button--primary:active {
+      background-color: #fff;
+      color: #26262a; }
     .tna-button--primary:hover {
       background-color: #26262a;
       color: #fff; }
@@ -4113,6 +4120,9 @@ ul {
     border-color: #eee;
     background-color: #eee;
     color: #26262a; }
+    .tna-button--secondary:visited, .tna-button--secondary:active {
+      background-color: #eee;
+      color: #26262a; }
     .tna-button--secondary:hover {
       background-color: #26262a;
       color: #fff; }
@@ -4120,6 +4130,9 @@ ul {
     border-color: #fff;
     background-color: #fff;
     color: #26262a; }
+    .tna-button--tertiary:visited, .tna-button--tertiary:active {
+      background-color: #fff;
+      color: #26262a; }
     .tna-button--tertiary:hover {
       background-color: #26262a;
       color: #fff; }
@@ -4127,6 +4140,9 @@ ul {
     border-color: #eee;
     background-color: transparent;
     color: #eee; }
+    .tna-button--invert:visited, .tna-button--invert:active {
+      background-color: transparent;
+      color: #eee; }
     .tna-button--invert:hover {
       background-color: #26262a;
       color: #fff; }

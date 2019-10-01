@@ -8,6 +8,11 @@
   min-width: 24px;
   text-align: center;
 
+  &:visited, &:active {
+    background-color: $color__black;
+    color: $color__white;
+  }
+
   &:hover {
     background-color: $color__white;
     color: $color__black;
@@ -22,6 +27,11 @@
     background-color: $color__white;
     color: $color__black;
 
+    &:visited, &:active {
+      background-color: $color__white;
+      color: $color__black;
+    }
+
     &:hover {
       background-color: $color__black;
       color: $color__white;
@@ -32,6 +42,11 @@
     border-color: $color__grey-light;
     background-color: $color__grey-light;
     color: $color__black;
+
+    &:visited, &:active {
+      background-color: $color__grey-light;
+      color: $color__black;
+    }
 
     &:hover {
       background-color: $color__black;
@@ -44,6 +59,11 @@
     background-color: #fff;
     color: $color__black;
 
+    &:visited, &:active {
+      background-color: $color__white;
+      color: $color__black;
+    }
+
     &:hover {
       background-color: $color__black;
       color: $color__white;
@@ -54,6 +74,11 @@
     border-color: $color__grey-light;
     background-color: transparent;
     color: $color__grey-light;
+
+    &:visited, &:active {
+      background-color: transparent;
+      color: $color__grey-light;
+    }
 
     &:hover {
       background-color: $color__black;
