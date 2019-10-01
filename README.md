@@ -37,15 +37,19 @@ There are several Grunt tasks available to developers. View the Gruntfile.js for
 
 ## Features
 
-### Bootstrap 3.3.6
+### Bootstrap v4.3.1
 
-Mobile first front-end framework, a stripped down version to the core grid elements http://getbootstrap.com/
+[Bootstrap](http://getbootstrap.com/) is mobile first front-end framework. TNA frontend toolkit uses the core grid system. Other Bootstrap components are not included.
 
 ### Sass
 
-A CSS extension language https://sass-lang.com/
+[Sass](https://sass-lang.com/) (Syntactically Awesome Style Sheets) is a preprocessor style sheet language.
 
 ### Grunt
 
-Grunt as a task manager to aid development http://gruntjs.com/
+[Grunt](http://gruntjs.com/) as a task manager to aid development.
+
+### Block Element Modifier (BEM)
+
+TNA frontend toolkit uses the [Block Element Modifier (BEM)](http://getbem.com/) methodology when naming CSS classes. This is designed to help developers understand how the different classes relate to each other.
 

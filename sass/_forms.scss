@@ -1,4 +1,4 @@
-.form {
+.tna-form {
 
   fieldset {
     margin-bottom: 0.6em;
@@ -42,12 +42,15 @@
       border: $default__border;
       padding: 8px;
       text-indent: 5px;
+
       &:disabled {
         background: #eee;
       }
+
       &:read-only {
         background: #eee;
       }
+
       &:focus {
         @include focus-default;
       }
@@ -63,21 +66,25 @@
   }
 
   &__checkbox {
+
     input[type="checkbox"] {
       position: absolute;
       opacity: 0;
     }
+
     label {
       position: relative;
       display: inline-block;
       padding-left: 32px;
     }
+
     label::before,
     label::after {
       position: absolute;
       content: "";
       display: inline-block;
     }
+
     label::before{
       height: 24px;
       width: 24px;
@@ -85,6 +92,7 @@
       left: 0;
       top: 2px;
     }
+
     label::after {
       height: 7px;
       width: 13px;
@@ -94,33 +102,40 @@
       left: 6px;
       top: 9px;
     }
+
     input[type="checkbox"] + label::after {
       content: none;
     }
+
     input[type="checkbox"]:checked + label::after {
       content: "";
     }
+
     input[type="checkbox"]:focus + label::before {
       @include focus-default;
     }
   }
 
   &__radio {
+
     input[type="radio"] {
       position: absolute;
       opacity: 0;
     }
+
     label {
       position: relative;
       display: inline-block;
       padding-left: 32px;
     }
+
     label::before,
     label::after {
       position: absolute;
       content: "";
       display: inline-block;
     }
+
     label::before{
       height: 24px;
       width: 24px;
@@ -129,6 +144,7 @@
       left: 0;
       top: 2px;
     }
+
     label::after {
       height: 12px;
       width: 12px;
@@ -137,12 +153,15 @@
       left: 6px;
       top: 8px;
     }
+
     input[type="radio"] + label::after {
       content: none;
     }
+
     input[type="radio"]:checked + label::after {
       content: "";
     }
+
     input[type="radio"]:focus + label::before {
       @include focus-default;
     }

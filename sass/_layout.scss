@@ -1,4 +1,4 @@
-.page-default {
+.tna-page {
 
   &__header {
     border-left: $default__border;
@@ -13,6 +13,7 @@
     padding: 1.6em;
     background: #fff;
     margin-bottom: 1.6em;
+
     &:after {
       display: block;
       content: '';
@@ -27,6 +28,7 @@
 
   &__sidebar {
     margin-bottom: 1.6em;
+
     &__nav {
       list-style-type: none;
       padding: 0;
