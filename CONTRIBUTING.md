@@ -85,9 +85,13 @@ TNA frontend toolkit uses the [Block Element Modifier (BEM)](http://getbem.com/)
 
 TNA frontend toolkit uses [Bootstrap 4.3.1 grid system](https://getbootstrap.com/docs/4.3/layout/grid/). Other Bootstrap components are not included.
 
-### 5.3 CSS and Sass rules
+### 5.3 Namespacing
 
-#### 5.3.1 Don't mix BEM and Bootstrap classes on the same element
+All class names start with a `.tna-` namespace to reduce the likelihood of conflicting with existing classes in applications.
+
+### 5.4 CSS and Sass rules
+
+#### 5.4.1 Don't mix BEM and Bootstrap classes on the same element
 
 Bad:
 ```
@@ -103,7 +107,7 @@ Good:
 </div>
 ```
 
-#### 5.3.2 Write each property on its own line
+#### 5.4.2 Write each property on its own line
 
 Bad:
 ```
@@ -118,7 +122,7 @@ Good:
 }
 ```
 
-#### 5.3.3 Use variables for colours
+#### 5.4.3 Use variables for colours
 
 Bad:
 ```
@@ -134,7 +138,7 @@ Good:
 }
 ```
 
-#### 5.3.4 Avoid using ID selectors
+#### 5.4.4 Avoid using ID selectors
 
 Bad:
 ```
@@ -150,7 +154,7 @@ Good:
 }
 ```
 
-#### 5.3.5 Separate rule, function, and mixin declarations with empty lines
+#### 5.4.5 Separate rule, function, and mixin declarations with empty lines
 
 Bad:
 ```
@@ -180,7 +184,7 @@ a {
 }
 ```
 
-#### 5.3.6 Use no more than 3 levels of nesting
+#### 5.4.6 Use no more than 3 levels of nesting
 
 Bad:
 ```
@@ -220,7 +224,7 @@ Good:
 }
 ```
 
-#### 5.3.7 Properties should be formatted with a single space separating the colon from the property's value
+#### 5.4.7 Properties should be formatted with a single space separating the colon from the property's value
 
 Bad:
 ```
@@ -236,7 +240,7 @@ Good:
 }
 ```
 
-#### 5.3.8 Omit length units on zero values
+#### 5.4.8 Omit length units on zero values
 
 Bad:
 ```
