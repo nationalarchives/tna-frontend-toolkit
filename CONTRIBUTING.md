@@ -32,7 +32,12 @@ Users must be able to access the information they need or be able to complete th
 
 ## 3.0 Guidelines
 
-We welcome contributions to The National Archives front end toolkit. To do so we ask contributors to follow a simple two-step process:
+We welcome contributions to The National Archives front end toolkit. To do so we ask contributors to follow a simple step process:
+
+1. Follow the [development setup](https://github.com/nationalarchives/tna-frontend-toolkit/blob/feature/contributions/README.md#20-development-setup).
+2. Raise an issue as described in the [guideline checklist](#31-guideline-checklist).
+3. Create a feature branch for your new code. Follow our [commit message guidelines](#32-commit-messages) and design system rules.
+4. Submit a pull request with the required documentation as described in the [guideline checklist](#31-guideline-checklist).
 
 ### 3.1 Guideline checklist
 
@@ -69,9 +74,196 @@ All patterns in The National Archives front end toolkit must be of high quality 
 
 When submitting a Pull Request please provide as much information as possible about how it meets the above criteria. This will help reviewers understand your suggestion.
 
-## 5.0 Process
+## 5.0 CSS style guide
 
-### 5.1 Versioning
+### 5.1 Block Element Modifier (BEM)
+
+TNA frontend toolkit uses the [Block Element Modifier (BEM)](http://getbem.com/) methodology when naming CSS classes. This is designed to help developers understand how the different classes relate to each other.
+
+### 5.2 Bootstrap 4.3.1 grid
+
+TNA frontend toolkit uses [Bootstrap 4.3.1](https://getbootstrap.com/) grid system. Other Bootstrap components are not included.
+
+### 5.3 CSS and Sass rules
+
+#### Don't mix BEM and Bootstrap classes on the same element
+
+Bad:
+```
+<div class="col-sm-8 block__element">
+</div>
+```
+
+Good:
+```
+<div class="col-sm-8">
+  <div class="block__element">
+  </div>
+</div>
+```
+
+#### Write each property on its own line
+
+Bad:
+```
+.block {border: 0; padding: 0;}
+```
+
+Good:
+```
+.block {
+  border: 0;
+  padding: 0;
+}
+```
+
+#### Use variables for colours
+
+Bad:
+```
+.block {
+  color: #005ea5;
+}
+```
+
+Good:
+```
+.block {
+  color: $blue;
+}
+```
+
+#### Avoid using ID selectors
+
+Bad:
+```
+#block {
+  ...
+}
+```
+
+Good:
+```
+.block {
+  ...
+}
+```
+
+#### Separate rule, function, and mixin declarations with empty lines
+
+Bad:
+```
+p {
+  margin: 0;
+  em {
+    ...
+  }
+}
+a {
+  ...
+}
+```
+
+Good:
+```
+p {
+  margin: 0;
+
+  em {
+    ...
+  }
+}
+
+a {
+  ...
+}
+```
+
+#### Use no more than 3 levels of nesting
+
+Bad:
+```
+.block {
+  ...
+  
+  &__element {
+  ...
+  
+    p {
+      margin: 0;
+    
+      em {
+        ...
+      }
+    }
+  }
+}
+```
+
+Good:
+```
+.block {
+  ...
+}
+
+.block__element {
+  ...
+  
+  p {
+    margin: 0;
+    
+    em {
+      ...
+    }
+  }
+}
+```
+
+#### Properties should be formatted with a single space separating the colon from the property's value
+
+Bad:
+```
+.block {
+  margin:0;
+}
+```
+
+Good:
+```
+.block {
+  margin: 0;
+}
+```
+
+#### Omit length units on zero values
+
+Bad:
+```
+.block {
+  margin: 0px;
+}
+```
+
+Good:
+```
+.block {
+  margin: 0;
+}
+```
+
+#### 
+
+Bad:
+```
+
+```
+
+Good:
+```
+
+```
+
+## 6.0 Versioning
 
 Using semantic versioning helps to keep track of releases, bug fixes and manage dependancies.
 Eg version `1.5.3`
