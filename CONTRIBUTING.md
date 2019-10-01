@@ -82,7 +82,7 @@ TNA frontend toolkit uses the [Block Element Modifier (BEM)](http://getbem.com/)
 
 ### 5.2 Bootstrap 4.3.1 grid
 
-TNA frontend toolkit uses [Bootstrap 4.3.1](https://getbootstrap.com/) grid system. Other Bootstrap components are not included.
+TNA frontend toolkit uses [Bootstrap 4.3.1 grid system](https://getbootstrap.com/docs/4.3/layout/grid/). Other Bootstrap components are not included.
 
 ### 5.3 CSS and Sass rules
 
