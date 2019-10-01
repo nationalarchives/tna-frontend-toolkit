@@ -1,4 +1,4 @@
-.icon {
+.tna-icon {
   display: inline-block;
   background-color: transparent;
   background-position: center center;
@@ -16,6 +16,7 @@
 
   &--bg-black {
     background-color: $color__black;
+
     &:hover {
       background-color: $color__grey-mid-dark;
     }

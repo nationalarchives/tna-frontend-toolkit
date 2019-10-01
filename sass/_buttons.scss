@@ -1,4 +1,4 @@
-.button {
+.tna-button {
   font-family: $font__heading;
   background-color: $color__black;
   color: $color__white;
@@ -7,11 +7,13 @@
   display: inline-block;
   min-width: 24px;
   text-align: center;
+
   &:hover {
     background-color: $color__white;
     color: $color__black;
     text-decoration: none;
   }
+
   &:focus {
     @include focus-default;
   }
@@ -19,33 +21,40 @@
   &--primary {
     background-color: $color__white;
     color: $color__black;
+
     &:hover {
       background-color: $color__black;
       color: $color__white;
     }
   }
+
   &--secondary {
     border-color: $color__grey-light;
     background-color: $color__grey-light;
     color: $color__black;
+
     &:hover {
       background-color: $color__black;
       color: $color__white;
     }
   }
+
   &--tertiary {
     border-color: #fff;
     background-color: #fff;
     color: $color__black;
+
     &:hover {
       background-color: $color__black;
       color: $color__white;
     }
   }
+
   &--invert {
     border-color: $color__grey-light;
     background-color: transparent;
     color: $color__grey-light;
+
     &:hover {
       background-color: $color__black;
       color: $color__white;
