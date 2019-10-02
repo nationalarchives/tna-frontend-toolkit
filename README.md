@@ -6,11 +6,11 @@
 
 A collection of CSS and HTML elements for using as part of your application's frontend. A way of creating flexible and unique layouts whilst also maintaining consistency across TNA online. For more information please see our [Design guide](http://www.nationalarchives.gov.uk/design-guide/).
 
-## 1.0 Installation
+## 1 Installation
 
 Coming soon...
 
-## 2.0 Development setup
+## 2 Development setup
 
 ### 2.1 Clone Github repository 'tna-css-toolkit' using SourceTree
 
@@ -34,6 +34,14 @@ Assuming that the [Grunt CLI](https://gruntjs.com/getting-started#installing-the
 There are several Grunt tasks available to developers. View the Gruntfile.js for a listing of included tasks
 
 * ```grunt``` will run a predefined set of tasks and result in an ongoing 'watch' tasks which responds to any changes to JavaScript and SASS files by compiling, concatenating and minifying the output.
+
+## 3 A quick guide on how to contribute
+
+1. Follow the [development setup](#20-development-setup).
+2. Raise an issue as described in the [guideline checklist](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/CONTRIBUTING.md#31-guideline-checklist).
+3. Create a feature branch for your new code. Follow our [commit message guidelines](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/CONTRIBUTING.md#32-commit-messages) and [CSS/Sass rules](#50-css-style-guide).
+4. Test your code as described in [browser/device testing](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/CONTRIBUTING.md#60-browserdevice-testing).
+5. Submit a pull request with the required documentation as described in the [guideline checklist](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/CONTRIBUTING.md#31-guideline-checklist).
 
 ## Features
 
