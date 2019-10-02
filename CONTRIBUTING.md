@@ -44,7 +44,7 @@ We welcome contributions to The National Archives front end toolkit. To do so we
 
 - Raise an issue describing the component you wish to contribute. A [template](https://github.com/nationalarchives/tna-frontend-toolkit/issues/new?assignees=gtvj&labels=enhancement&template=new-component-for-the-national-archives-front-end-toolkit.md&title=) is provided for this purpose
 - Submit a pull request containing code for the new component. The code must be accompanied, within the pull request comments, by:
-  - A clear summary describing the new component and usage
+  - A clear summary describing the new component with issue number raised
   - HTML example snippet of usage
   - Detailed description of how the new component meets the [contribution criteria](#40-contribution-criteria).
 
