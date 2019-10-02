@@ -12,18 +12,26 @@ Coming soon...
 
 ## 2 Development setup
 
-### 2.1 Clone Github repository 'tna-css-toolkit' using SourceTree
+### 2.1 Clone this Github repository
+
+Git:
+
+```
+ $ git clone https://github.com/nationalarchives/tna-frontend-toolkit.git
+```
+
+SourceTree:
 
 Click 'Remote' in SourceTree and you will be shown a full list of repositories you have access to. Then: 
 
-* Create a folder called 'tna-css-toolkit' in the a desired directory
-* Select the 'tna-css-toolkit' repository in SourceTree and clone it to your newly created 'tna-css-toolkit' directory
+* Create a folder called 'tna-frontend-toolkit' in the a desired directory
+* Select the 'tna-frontend-toolkit' repository in SourceTree and clone it to your newly created 'tna-frontend-toolkit' directory
 
 ### 2.2 Create a new project in PhpStorm
 
 * Select 'Create New Project from Existing Files' 
 * Select 'Source files are in a local directory, no web server is yet configured' 
-* Set the created 'tna-css-toolkit' directory and click 'Project Root'
+* Set the created 'tna-frontend-toolkit' directory and click 'Project Root'
 
 ### 2.3 Running Grunt
 
@@ -31,7 +39,7 @@ Assuming that the [Grunt CLI](https://gruntjs.com/getting-started#installing-the
 
 #### 2.3.1 Available Grunt Tasks 
 
-There are several Grunt tasks available to developers. View the Gruntfile.js for a listing of included tasks
+There are several Grunt tasks available to developers. View the Gruntfile.js for a listing of included tasks.
 
 * ```grunt``` will run a predefined set of tasks and result in an ongoing 'watch' tasks which responds to any changes to JavaScript and SASS files by compiling, concatenating and minifying the output.
 
