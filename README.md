@@ -37,10 +37,10 @@ There are several Grunt tasks available to developers. View the Gruntfile.js for
 
 ## 3 A quick guide on how to contribute
 
-1. Follow the [development setup](#20-development-setup).
+1. Follow the [development setup](#2-development-setup).
 2. Raise an issue as described in the [guideline checklist](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/CONTRIBUTING.md#31-guideline-checklist).
-3. Create a feature branch for your new code. Follow our [commit message guidelines](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/CONTRIBUTING.md#32-commit-messages) and [CSS/Sass rules](#50-css-style-guide).
-4. Test your code as described in [browser/device testing](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/CONTRIBUTING.md#60-browserdevice-testing).
+3. Create a feature branch for your new code. Follow our [commit message guidelines](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/CONTRIBUTING.md#32-commit-messages) and [CSS/Sass rules](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/CONTRIBUTING.md#5-css-style-guide).
+4. Test your code as described in [browser/device testing](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/CONTRIBUTING.md#6-browserdevice-testing).
 5. Submit a pull request with the required documentation as described in the [guideline checklist](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/CONTRIBUTING.md#31-guideline-checklist).
 
 ## Features
