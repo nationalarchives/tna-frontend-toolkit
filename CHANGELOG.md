@@ -8,3 +8,7 @@ All notable changes to this project will be documented in this file. The format 
 
   - CONTRIBUTING.md file and content
   - CHANGELOG.md file and content
+
+## 0.0.1
+
+  - First release
