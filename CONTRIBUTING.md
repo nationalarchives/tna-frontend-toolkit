@@ -34,7 +34,7 @@ Users must be able to access the information they need or be able to complete th
 
 We welcome contributions to The National Archives front end toolkit. To do so we ask contributors to follow a simple step process:
 
-1. Follow the [development setup](https://github.com/nationalarchives/tna-frontend-toolkit/blob/feature/contributions/README.md#2-development-setup).
+1. Follow the [development setup](https://github.com/nationalarchives/tna-frontend-toolkit#2-development-setup).
 2. Raise an issue as described in the [guideline checklist](#31-guideline-checklist).
 3. Create a feature branch for your new code. Follow our [commit message guidelines](#32-commit-messages) and [CSS/Sass rules](#5-css-style-guide).
 4. Test your code as described in [browser/device testing](#6-browserdevice-testing).
@@ -62,7 +62,7 @@ We ask that developers contributing to this repository take a considered approac
 
 ### 3.3 How will we respond?
 
-We will comment on your issue as soon as we can. In order for a pull request to be accepted, it MUST include all relevant information as specified in the [guideline checklist](#31-guideline-checklist). Your pull request will be reviewed by members of The National Archives Digital Services and if the new component satifies our [contribution criteria](#4-contribution-criteria) and [CSS/Sass guideline](#5-css-style-guide), we’ll add it to the main project.
+We will comment on your issue as soon as we can. In order for a pull request to be accepted, it MUST include all relevant information as specified in the [guideline checklist](#31-guideline-checklist). Your pull request will be reviewed by members of The National Archives Digital Services and if the new component satifies our [contribution criteria](#4-contribution-criteria) and [CSS/Sass guidelines](#5-css-style-guide), we’ll add it to the main project.
 
 ## 4 Contribution criteria
 
