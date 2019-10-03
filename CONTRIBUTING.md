@@ -30,23 +30,23 @@ Ensuring digital assets are reusable, maintainable and scalable.
 
 Users must be able to access the information they need or be able to complete their task without layout or functionality issues.
 
-## 3 Guidelines
+## 3 Contribution guidelines
 
 We welcome contributions to The National Archives front end toolkit. To do so we ask contributors to follow a simple step process:
 
-1. Follow the [development setup](https://github.com/nationalarchives/tna-frontend-toolkit/blob/feature/contributions/README.md#20-development-setup).
+1. Follow the [development setup](https://github.com/nationalarchives/tna-frontend-toolkit/blob/feature/contributions/README.md#2-development-setup).
 2. Raise an issue as described in the [guideline checklist](#31-guideline-checklist).
-3. Create a feature branch for your new code. Follow our [commit message guidelines](#32-commit-messages) and [CSS/Sass rules](#50-css-style-guide).
-4. Test your code as described in [browser/device testing](#60-browserdevice-testing).
+3. Create a feature branch for your new code. Follow our [commit message guidelines](#32-commit-messages) and [CSS/Sass rules](#5-css-style-guide).
+4. Test your code as described in [browser/device testing](#6-browserdevice-testing).
 5. Submit a pull request with the required documentation as described in the [guideline checklist](#31-guideline-checklist).
 
 ### 3.1 Guideline checklist
 
 - Raise an issue describing the component you wish to contribute. A [template](https://github.com/nationalarchives/tna-frontend-toolkit/issues/new?assignees=gtvj&labels=enhancement&template=new-component-for-the-national-archives-front-end-toolkit.md&title=) is provided for this purpose
-- Submit a pull request containing code for the new component. The code must be accompanied, within the pull request comments, by:
+- Submit a [pull request](https://help.github.com/en/articles/about-pull-requests) containing code for the new component. The code must be accompanied, within the pull request comments, by:
   - A clear summary describing the new component with issue number raised
   - HTML example snippet of usage
-  - Detailed description of how the new component meets the [contribution criteria](#40-contribution-criteria).
+  - Detailed description of how the new component meets the [contribution criteria](#4-contribution-criteria).
 
 ### 3.2 Commit messages
 
@@ -59,6 +59,10 @@ We ask that developers contributing to this repository take a considered approac
 - Use the imperative mood in the subject line
 - Wrap the body at 72 characters
 - Use the body to explain _what_ and _why_ vs. how
+
+### 3.3 How will we respond?
+
+We will comment on your issue as soon as we can. In order for a pull request to be accepted, it MUST include all relevant information as specified in the [guideline checklist](#31-guideline-checklist). Your pull request will be reviewed by members of The National Archives Digital Services and if the new component satifies our [contribution criteria](#4-contribution-criteria) and [CSS/Sass guideline](#5-css-style-guide), we’ll add it to the main project.
 
 ## 4 Contribution criteria
 
