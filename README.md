@@ -1,12 +1,16 @@
 [![Build Status](https://travis-ci.org/nationalarchives/tna-frontend-toolkit.svg?branch=master)](https://travis-ci.org/nationalarchives/tna-frontend-toolkit)
 
-# NAVI - National Archives Visual Identity
+# NAVI - The National Archives Visual Identity
 
 ### A design system for digital services
 
-A collection of CSS and HTML elements for using as part of your application's frontend. A way of creating flexible and unique layouts whilst also maintaining consistency across TNA online.
+NAVI is a collection of CSS and HTML elements for using as part of your application's frontend. A way of creating flexible and unique layouts whilst also maintaining consistency across our digital services.
 
 ## 1 Installation
+
+Coming soon...
+
+### 1.1 Themes
 
 Coming soon...
 
