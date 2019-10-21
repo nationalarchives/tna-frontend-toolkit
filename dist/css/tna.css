@@ -3807,7 +3807,6 @@ ul {
       background-color: #eee;
       text-decoration: none; }
 .tna-ul--menu-disc {
-  font-family: "Roboto Mono", monospace;
   list-style-type: none;
   padding: 0; }
   .tna-ul--menu-disc li {
