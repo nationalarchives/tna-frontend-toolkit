@@ -3830,7 +3830,6 @@ ul {
     color: #26262a; }
 
 .tna-blockquote {
-  font-family: "Roboto Mono", monospace;
   border: 2px solid #26262a;
   padding: 1.6em 2.4em;
   margin-bottom: 1.6em;
@@ -4170,3 +4169,6 @@ ul {
       background-color: #26262a;
       color: #fff;
       text-decoration: none; }
+
+.tna-blockquote--engagement {
+  font-family: "Roboto Mono", monospace; }
