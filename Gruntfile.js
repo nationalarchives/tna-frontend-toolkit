@@ -9,7 +9,8 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    'dist/css/tna.css': 'sass/tna.scss'
+                    'dist/css/tna.css': 'sass/tna.scss',
+                    'dist/css/engagement.css': 'sass/engagement/theme.scss'
                 }
             }
         },
@@ -19,7 +20,8 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'dist/css/tna.min.css': ['dist/css/tna.css']
+                    'dist/css/tna.min.css': ['dist/css/tna.css'],
+                    'dist/css/engagement.min.css': ['dist/css/engagement.css']
                 }
             }
         },
