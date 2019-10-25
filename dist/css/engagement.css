@@ -4102,7 +4102,6 @@ ul {
     color: #26262a; }
 
 .tna-button {
-  font-family: "Roboto Mono", monospace;
   background-color: #26262a;
   color: #fff;
   border: 2px solid #26262a;
@@ -4169,6 +4168,9 @@ ul {
       text-decoration: none; }
 
 .tna-blockquote--engagement {
+  font-family: "Roboto Mono", monospace; }
+
+.tna-button--engagement {
   font-family: "Roboto Mono", monospace; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
