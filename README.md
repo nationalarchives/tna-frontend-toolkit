@@ -6,6 +6,8 @@
 
 NAVI is a collection of CSS and HTML elements for using as part of your application's frontend. A way of creating flexible and unique layouts whilst also maintaining consistency across our digital services.
 
+View [a demo of NAVI](https://cdn.nationalarchives.gov.uk/toolkit/index.html)
+
 ## 1 Installation
 
 **Pre-requisites:** To get this repository up and running on a development machine you will need [Node.js](https://nodejs.org/en/), the [Grunt CLI](https://gruntjs.com) and PHP installed on your development machine.
