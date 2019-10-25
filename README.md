@@ -8,7 +8,14 @@ NAVI is a collection of CSS and HTML elements for using as part of your applicat
 
 ## 1 Installation
 
-Coming soon...
+**Pre-requisites:** To get this repository up and running you will need [Node.js](https://nodejs.org/en/) and PHP installed on your development machine.
+
+Steps: 
+
+* Clone the repository 
+* Run `npm install` from the root directory to install dependencies
+* Run `npm start` to kick off a PHP server on localhost and open the home page in your default browser.
+* Run `npm stop` to kill the server
 
 ### 1.1 Themes
 
