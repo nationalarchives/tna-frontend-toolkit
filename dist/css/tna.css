@@ -4042,13 +4042,8 @@ ul {
     background-image: url("../img/icon-wh-info.png"); }
 
 .tna-page__header {
-  border-left: 2px solid #26262a;
-  border-right: 2px solid #26262a;
-  border-bottom: 2px solid #26262a;
   padding: 0.6em 1.6em; }
 .tna-page__entry {
-  border-left: 2px solid #26262a;
-  border-right: 2px solid #26262a;
   padding: 1.6em;
   background: #fff;
   margin-bottom: 1.6em; }

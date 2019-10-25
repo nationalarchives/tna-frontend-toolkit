@@ -1,0 +1,18 @@
+.tna-page {
+
+  &__header {
+    &--engagement {
+      border-left: $default__border;
+      border-right: $default__border;
+      border-bottom: $default__border;
+    }
+  }
+
+
+  &__entry {
+    &--engagement {
+      border-left: $default__border;
+      border-right: $default__border;
+    }
+  }
+}
