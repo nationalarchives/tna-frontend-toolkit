@@ -3729,7 +3729,6 @@ body {
   color: #26262a; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Roboto Mono", monospace;
   font-weight: normal;
   line-height: 1.6;
   margin-top: 20px;

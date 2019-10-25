@@ -8,7 +8,7 @@ NAVI is a collection of CSS and HTML elements for using as part of your applicat
 
 ## 1 Installation
 
-**Pre-requisites:** To get this repository up and running you will need [Node.js](https://nodejs.org/en/) and PHP installed on your development machine.
+**Pre-requisites:** To get this repository up and running on a development machine you will need [Node.js](https://nodejs.org/en/), the [Grunt CLI](https://gruntjs.com) and PHP installed on your development machine.
 
 Steps: 
 
