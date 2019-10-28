@@ -4,9 +4,6 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         sass: {
-            options: {
-                sourcemap: 'none'
-            },
             dist: {
                 files: {
                     'dist/css/tna.css': 'sass/tna.scss',
