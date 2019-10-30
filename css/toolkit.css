@@ -77,11 +77,47 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     color: #333333;
-    background-color: #f5f5f5;
+    background-color: #f8f8f8;
     border: 1px solid #ccc;
     border-radius: 0;
 }
 
 .ul--menu {
     max-width: 360px;
+}
+
+.engagement-theme {
+    color: red;
+}
+
+.theme-nav {
+    margin-top: 2em;
+    text-align: right;
+}
+
+.theme-nav li {
+    list-style-type: none;
+    margin-left: 2em;
+    display: inline-block;
+}
+
+.theme-nav a:link {
+    color: #1d70b8;
+}
+
+.theme-nav a:hover {
+    color: #1d70b8;
+    text-decoration: underline;
+}
+
+.theme-nav a:visited {
+    color: #1d70b8;
+}
+
+.theme-nav a:active {
+    color: #1d70b8;
+}
+
+.theme-nav .current {
+    font-weight: bold;
 }

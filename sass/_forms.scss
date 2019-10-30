@@ -5,10 +5,14 @@
   }
 
   legend {
-    font-family: $font__roboto-mono;
     font-size: 1.6em;
     margin: 0 0 0.6em 0;
     width: auto;
+  }
+
+  label {
+    width: 100%;
+    font-weight: normal;
   }
 
   &__row {
@@ -19,12 +23,6 @@
       display: table;
       content: " ";
       clear: both;
-    }
-
-    label {
-      width: 100%;
-      font-family: $font__roboto-mono;
-      font-weight: normal;
     }
 
     input[type=color],
@@ -85,7 +83,7 @@
       display: inline-block;
     }
 
-    label::before{
+    label::before {
       height: 24px;
       width: 24px;
       border: $default__border;
@@ -136,7 +134,7 @@
       display: inline-block;
     }
 
-    label::before{
+    label::before {
       height: 24px;
       width: 24px;
       border: $default__border;
