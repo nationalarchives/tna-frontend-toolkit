@@ -1,13 +1,15 @@
 module.exports = function (grunt) {
 
+    var version =
+
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         sass: {
             dist: {
                 files: {
-                    'dist/css/tna.css': 'sass/tna.scss',
-                    'dist/css/engagement.css': 'sass/engagement/theme.scss'
+                    'dist/css/<%= pkg.name %>.<%= pkg.version %>.css': 'sass/navi.scss',
+                    'dist/css/<%= pkg.name %>-engage.<%= pkg.version %>.css': 'sass/engage/engage.scss'
                 }
             }
         },
@@ -17,8 +19,8 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'dist/css/tna.min.css': ['dist/css/tna.css'],
-                    'dist/css/engagement.min.css': ['dist/css/engagement.css']
+                    'dist/css/<%= pkg.name %>.<%= pkg.version %>.min.css': ['dist/css/<%= pkg.name %>.<%= pkg.version %>.css'],
+                    'dist/css/<%= pkg.name %>-engage.<%= pkg.version %>.min.css': ['dist/css/<%= pkg.name %>-engage.<%= pkg.version %>.css']
                 }
             }
         },
