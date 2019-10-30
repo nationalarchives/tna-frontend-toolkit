@@ -3761,7 +3761,7 @@ a {
     color: #1e1e2a; }
   a:focus {
     outline: 5px solid #1d70b8;
-    outline-offset: 1px;
+    outline-offset: 0;
     z-index: 999; }
 
 ul {
@@ -3917,7 +3917,7 @@ ul {
     .tna-form__row select:focus,
     .tna-form__row textarea:focus {
       outline: 5px solid #1d70b8;
-      outline-offset: 1px;
+      outline-offset: 0;
       z-index: 999; }
   .tna-form__row select {
     height: 2.4em;
@@ -3957,7 +3957,7 @@ ul {
   content: ""; }
 .tna-form__checkbox input[type="checkbox"]:focus + label::before {
   outline: 5px solid #1d70b8;
-  outline-offset: 1px;
+  outline-offset: 0;
   z-index: 999; }
 .tna-form__radio input[type="radio"] {
   position: absolute;
@@ -3991,7 +3991,7 @@ ul {
   content: ""; }
 .tna-form__radio input[type="radio"]:focus + label::before {
   outline: 5px solid #1d70b8;
-  outline-offset: 1px;
+  outline-offset: 0;
   z-index: 999; }
 .tna-form__optional {
   font-size: 0.9em;
@@ -4038,21 +4038,8 @@ ul {
   .tna-icon--white-info {
     background-image: url("../img/icon-wh-info.png"); }
 
-.tna-page__header {
-  padding: 0.6em 1.6em; }
 .tna-page__entry {
-  padding: 1.6em;
-  background: #fff;
   margin-bottom: 1.6em; }
-  .tna-page__entry:after {
-    display: block;
-    content: '';
-    background-color: #fff;
-    height: 75%;
-    width: 2px;
-    position: absolute;
-    bottom: 0;
-    right: 15px; }
 .tna-page__sidebar {
   margin-bottom: 1.6em; }
   .tna-page__sidebar__nav {
@@ -4109,7 +4096,7 @@ ul {
     text-decoration: none; }
   .tna-button:focus {
     outline: 5px solid #1d70b8;
-    outline-offset: 1px;
+    outline-offset: 0;
     z-index: 999; }
   .tna-button--primary {
     background-color: #fff;
@@ -4159,11 +4146,10 @@ ul {
       text-decoration: none; }
 
 .tna-blockquote {
-  border: 2px solid #26262a; }
-  .tna-blockquote--engagement {
-    font-family: "Roboto Mono", monospace; }
+  border: 2px solid #26262a;
+  font-family: "Roboto Mono", monospace; }
 
-.tna-button--engagement {
+.tna-button {
   font-family: "Roboto Mono", monospace; }
 
 .tna-form--engagement legend {
@@ -4174,15 +4160,27 @@ ul {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Roboto Mono", monospace; }
 
-.tna-page__header--engagement {
+.tna-page__header {
+  padding: 0.6em 1.6em;
   border-left: 2px solid #26262a;
   border-right: 2px solid #26262a;
   border-bottom: 2px solid #26262a; }
-.tna-page__entry--engagement {
+.tna-page__entry {
+  padding: 1.6em;
+  background: #fff;
   border-left: 2px solid #26262a;
   border-right: 2px solid #26262a; }
+  .tna-page__entry:after {
+    display: block;
+    content: '';
+    background-color: #fff;
+    height: 75%;
+    width: 2px;
+    position: absolute;
+    bottom: 0;
+    right: 15px; }
 
-.tna-ul--menu-disc--engagement {
+.tna-ul--menu-disc {
   font-family: "Roboto Mono", monospace; }
 
 .tna-card__content h3 {

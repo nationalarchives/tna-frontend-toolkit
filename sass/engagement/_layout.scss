@@ -1,18 +1,27 @@
 .tna-page {
 
   &__header {
-    &--engagement {
-      border-left: $default__border;
-      border-right: $default__border;
-      border-bottom: $default__border;
-    }
+    padding: 0.6em 1.6em;
+    border-left: $default__border;
+    border-right: $default__border;
+    border-bottom: $default__border;
   }
 
-
   &__entry {
-    &--engagement {
-      border-left: $default__border;
-      border-right: $default__border;
+    padding: 1.6em;
+    background: #fff;
+    border-left: $default__border;
+    border-right: $default__border;
+
+    &:after {
+      display: block;
+      content: '';
+      background-color: #fff;
+      height: 75%;
+      width: 2px;
+      position: absolute;
+      bottom: 0;
+      right: 15px;
     }
   }
 }

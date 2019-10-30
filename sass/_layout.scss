@@ -1,24 +1,7 @@
 .tna-page {
 
-  &__header {
-    padding: 0.6em 1.6em;
-  }
-
   &__entry {
-    padding: 1.6em;
-    background: #fff;
     margin-bottom: 1.6em;
-
-    &:after {
-      display: block;
-      content: '';
-      background-color: #fff;
-      height: 75%;
-      width: 2px;
-      position: absolute;
-      bottom: 0;
-      right: 15px;
-    }
   }
 
   &__sidebar {
