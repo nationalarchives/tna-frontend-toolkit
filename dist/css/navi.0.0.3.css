@@ -4145,45 +4145,4 @@ ul {
       color: #fff;
       text-decoration: none; }
 
-.tna-blockquote {
-  border: 2px solid #26262a;
-  font-family: "Roboto Mono", monospace; }
-
-.tna-button {
-  font-family: "Roboto Mono", monospace; }
-
-.tna-form--engagement legend {
-  font-family: "Roboto Mono", monospace; }
-.tna-form--engagement label {
-  font-family: "Roboto Mono", monospace; }
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Roboto Mono", monospace; }
-
-.tna-page__header {
-  padding: 0.6em 1.6em;
-  border-left: 2px solid #26262a;
-  border-right: 2px solid #26262a;
-  border-bottom: 2px solid #26262a; }
-.tna-page__entry {
-  padding: 1.6em;
-  background: #fff;
-  border-left: 2px solid #26262a;
-  border-right: 2px solid #26262a; }
-  .tna-page__entry:after {
-    display: block;
-    content: '';
-    background-color: #fff;
-    height: 75%;
-    width: 2px;
-    position: absolute;
-    bottom: 0;
-    right: 15px; }
-
-.tna-ul--menu-disc {
-  font-family: "Roboto Mono", monospace; }
-
-.tna-card__content h3 {
-  border-top: 2px solid #26262a; }
-
-/*# sourceMappingURL=engagement.css.map */
+/*# sourceMappingURL=navi.0.0.3.css.map */

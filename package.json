@@ -1,6 +1,6 @@
 {
-  "name": "tna-base",
-  "version": "0.2.2",
+  "name": "navi",
+  "version": "0.0.4",
   "scripts": {
     "start": "php -S 'localhost:8000' & open http://localhost:8000 & grunt watch",
     "stop": "ps aux | grep localhost | awk '{print $2}' | xargs -I {pid} kill -9 {pid}"
