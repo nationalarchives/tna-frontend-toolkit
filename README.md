@@ -42,17 +42,11 @@ Click 'Remote' in SourceTree and you will be shown a full list of repositories y
 * Create a folder called 'tna-frontend-toolkit' in the a desired directory
 * Select the 'tna-frontend-toolkit' repository in SourceTree and clone it to your newly created 'tna-frontend-toolkit' directory
 
-### 2.2 Create a new project in PhpStorm
-
-* Select 'Create New Project from Existing Files' 
-* Select 'Source files are in a local directory, no web server is yet configured' 
-* Set the created 'tna-frontend-toolkit' directory and click 'Project Root'
-
-### 2.3 Running Grunt
+### 2.2 Running Grunt
 
 Assuming that the [Grunt CLI](https://gruntjs.com/getting-started#installing-the-cli) has been installed follow the instructions on the [Grunt website](http://gruntjs.com/getting-started#working-with-an-existing-grunt-project).
 
-#### 2.3.1 Available Grunt Tasks 
+#### 2.2.1 Available Grunt Tasks 
 
 There are several Grunt tasks available to developers. View the Gruntfile.js for a listing of included tasks.
 
