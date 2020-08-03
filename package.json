@@ -1,6 +1,6 @@
 {
   "name": "navi",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "start": "php -S 'localhost:8000' & open http://localhost:8000 & grunt watch",
     "stop": "ps aux | grep localhost | awk '{print $2}' | xargs -I {pid} kill -9 {pid}"
@@ -13,6 +13,7 @@
     "grunt-contrib-watch": "^1.1.0"
   },
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "gem": "^2.4.3",
     "highlight.js": "^9.15.10"
   }
