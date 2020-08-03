@@ -4,7 +4,7 @@
 
 ### A design system for digital services
 
-NAVI is a collection of CSS and HTML elements for using as part of your application's frontend. A way of creating flexible and unique layouts whilst also maintaining consistency across our digital services.
+NAVI is a collection of CSS and HTML components for use as in your application's frontend. It is intended to permit the creation of flexible and unique layouts whilst also maintaining consistency across our digital services.
 
 View [a demo of NAVI](https://cdn.nationalarchives.gov.uk/toolkit/index.html)
 
@@ -14,14 +14,16 @@ View [a demo of NAVI](https://cdn.nationalarchives.gov.uk/toolkit/index.html)
 
 Steps: 
 
-* Clone the repository 
+* Clone this repository 
 * Run `npm install` from the root directory to install dependencies
-* Run `npm start` to kick off a PHP server on localhost and open the home page in your default browser.
-* Run `npm stop` to kill the server
+* Run `npm start` to run a PHP server on localhost and open the home page in your default browser.
+* Run `npm stop` to kill the server process
 
 ### 1.1 Themes
 
-Coming soon...
+Core patterns are compiled in `sass/navi.scss`. Additional themes extend the core patterns and are located in child directories of `sass`. Current themes are: 
+
+* **Engage** - a theme for services that are required to reflect core aspects of The National Archives brand
 
 ## 2 Development setup
 
