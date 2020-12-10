@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/nationalarchives/tna-frontend-toolkit.svg?branch=master)](https://travis-ci.org/nationalarchives/tna-frontend-toolkit)
 
-# NAVI - The National Archives Visual Identity
+# The National Archives Frontend Toolkit
 
 ### A design system for digital services
 
