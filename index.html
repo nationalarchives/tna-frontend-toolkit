@@ -18,6 +18,9 @@
 	<!-- Toolkit custom CSS -->
 	<link rel="stylesheet" href="css/toolkit.css">
 
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 	<!-- Syntax highlighting styles and JavaScript-->
 	<link rel="stylesheet" href="css/github.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
@@ -37,13 +40,46 @@
 </head>
 
 <body>
-<header>
+<header class="bg-dark">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <img src="img/tna.jpeg" class="img-fluid logo">
-            </div>
-            <div class="col-md-6">
+			<div class="col-logo">
+				<a href="#"><img src="img/tna-square-white-logo.svg" class="img-fluid logo"></a>
+			</div>
+            <div class="col-md-10">
+				<nav class="navbar navbar-expand navbar-dark bg-dark">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+
+							<a class="nav-link" href="#">Sign in&nbsp;&nbsp;&nbsp;<i class="far fa-user"></i></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Search&nbsp;&nbsp;&nbsp;<i class="fas fa-search"></i></a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbar-primary">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#"><span>Explore the collection</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><span>What's on</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><span>Visit us</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><span>Learn</span></a>
+							</li>
+						</ul>
+					</div>
+
+				</nav>
             </div>
         </div>
     </div>
