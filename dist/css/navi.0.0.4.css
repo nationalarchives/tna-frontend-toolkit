@@ -4031,7 +4031,7 @@ body {
   color: #26262a; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-weight: normal;
+  font-weight: 700;
   line-height: 1.6;
   margin-top: 20px;
   margin-bottom: 10px; }
