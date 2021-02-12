@@ -4091,7 +4091,13 @@ ul {
     background-color: #ddd; }
 
 .bg-dark {
-  background-color: #26262a; }
+  background-color: #26262a;
+  color: #fff; }
+  .bg-dark a {
+    color: #fff; }
+
+footer .bg-dark a {
+  text-decoration: underline; }
 
 .tna-ul--no-bullet {
   list-style-type: none;

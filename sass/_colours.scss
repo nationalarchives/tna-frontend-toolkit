@@ -28,4 +28,13 @@
 
 .bg-dark {
   background-color: #26262a;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+}
+footer .bg-dark {
+  a {
+    text-decoration: underline;
+  }
 }

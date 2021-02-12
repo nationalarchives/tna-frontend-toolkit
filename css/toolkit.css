@@ -96,6 +96,17 @@ ul.colours  {
     height: auto;
     margin: 1rem 0;
 }
+footer .ogl img {
+    float: left;
+    margin: 3px 25px 10px 0;
+    width: auto;
+    height: 16px;
+}
+footer ul a {
+    display: block;
+    padding: .1em 0;
+    margin: 0;
+}
 pre {
     display: block;
     padding: 1.6em;
