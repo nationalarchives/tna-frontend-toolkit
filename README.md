@@ -1,5 +1,7 @@
 # The National Archives Frontend Toolkit
 
+> ⚠️ Deprecated in favour of [TNA Frontend](https://github.com/nationalarchives/tna-frontend)
+
 ### A design system for digital services
 
 NAVI is a collection of CSS and HTML elements for using as part of your application's frontend. A way of creating flexible and unique layouts whilst also maintaining consistency across our digital services.
